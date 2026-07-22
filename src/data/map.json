@@ -2,7 +2,7 @@
     "bedroom": {
         "id": "bedroom",
         "name": "ห้องนอน",
-        "url": "https://i.pinimg.com/736x/16/6b/e3/166be35559d55fd1423ed6a5e55f5ae6.jpg",
+        "url": "https://i.pinimg.com/564x/72/1e/24/721e24ded6bc0fdc35a116474ca1a17e.jpg",
         "action": [
                 { "value": "นอน", "pos": 1, "color": "white" }, 
                 { "value": "ออกจากที่นี่", "pos": 0, "color": "red" }
@@ -11,7 +11,7 @@
     "classroom": {
         "id": "classroom",
         "name": "ห้องเรียน",
-        "url": "https://i.pinimg.com/564x/72/1e/24/721e24ded6bc0fdc35a116474ca1a17e.jpg",
+        "url": "https://i.pinimg.com/736x/16/6b/e3/166be35559d55fd1423ed6a5e55f5ae6.jpg",
         "action": [
                 { "value": "เข้าร่วมคลาสเรียน", "pos": 1, "color": "white" }, 
                 { "value": "ออกจากที่นี่", "pos": 0, "color": "red" }
@@ -34,31 +34,40 @@
                 { "value": "ตกปลา", "pos": 1, "color": "yellow" },
                 { "value": "ออกจากที่นี่", "pos": 0, "color": "red" }
         ],
-        "encounters": [
-            {
-                "species": "Pidgey",
-                "minLv": 2,
-                "maxLv": 6,
-                "chance": 0.35
-            },
-            {
-                "species": "Rattata",
-                "minLv": 2,
-                "maxLv": 5,
-                "chance": 0.35
-            },
-            {
-                "species": "Nidoran-m",
-                "minLv": 2,
-                "maxLv": 5,
-                "chance": 0.5
-            },
-            {
-                "species": "Oddish",
-                "minLv": 2,
-                "maxLv": 5,
-                "chance": 0.5
-            },
+        "encounters": {
+            "grass": [
+                {
+                    "species": "Pidgey",
+                    "minLv": 2,
+                    "maxLv": 6,
+                    "chance": 0.35
+                },
+                {
+                    "species": "Rattata",
+                    "minLv": 2,
+                    "maxLv": 5,
+                    "chance": 0.35
+                },
+                {
+                    "species": "Nidoran-m",
+                    "minLv": 2,
+                    "maxLv": 5,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Mankey",
+                    "minLv": 2,
+                    "maxLv": 5,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Oddish",
+                    "minLv": 2,
+                    "maxLv": 5,
+                    "chance": 0.5
+                }
+            ],
+            "water":[
             {
                 "species": "Poliwag",
                 "minLv": 2,
@@ -76,13 +85,7 @@
                 "minLv": 2,
                 "maxLv": 5,
                 "chance": 0.5
-            },
-            {
-                "species": "Mankey",
-                "minLv": 2,
-                "maxLv": 5,
-                "chance": 0.5
+            }]
             }
-        ]
     }
 }

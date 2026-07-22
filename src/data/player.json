@@ -1,0 +1,76 @@
+[
+    {
+        "name": "John Doe",
+        "username": "oak8264",
+        "password": "82648264",
+        "max_slots": 3,
+        "current_location": "bedroom",
+        "day": 1,
+        "time": 6,
+        "phase": 1,
+        "team": [
+            {
+                "nickname": "Smeargle",
+                "species": "smeargle",
+                "item": "",
+                "ability": "protean",
+                "moves": [
+                    "Quick Attack",
+                    "Bulldoze",
+                    "water gun",
+                    "Rock Smash"
+                ],
+                "nature": "Naive",
+                "level": 15,
+                "evs": {
+                    "hp": 252,
+                    "atk": 252,
+                    "def": 252,
+                    "spa": 252,
+                    "spd": 252,
+                    "spe": 252
+                },
+                "ivs": {
+                    "hp": 31,
+                    "atk": 31,
+                    "def": 31,
+                    "spa": 31,
+                    "spd": 31,
+                    "spe": 31
+                },
+                "sp": 10,
+                "max_sp": 10
+            },
+            {
+                "nickname": "Buizel",
+                "species": "buizel",
+                "item": "",
+                "ability": "swift swim",
+                "moves": [
+                    "Quick Attack",
+                    "water gun"
+                ],
+                "nature": "Naive",
+                "level": 15,
+                "evs": {
+                    "hp": 0,
+                    "atk": 0,
+                    "def": 4,
+                    "spa": 0,
+                    "spd": 0,
+                    "spe": 0
+                },
+                "ivs": {
+                    "hp": 0,
+                    "atk": 0,
+                    "def": 0,
+                    "spa": 0,
+                    "spd": 0,
+                    "spe": 0
+                },
+                "sp": 10,
+                "max_sp": 10
+            }
+        ]
+    }
+]

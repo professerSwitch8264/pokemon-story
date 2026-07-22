@@ -1,0 +1,33 @@
+[
+    {
+        "id": "barry",
+        "name": "ดำ",
+        "location": "room",
+        "script": [
+            { "node": 1, "nextNode": 2, "action": "talk", "speaker": "ดำ", "dialog": "สวัสดี ฉัน นิกก้า" },
+            { "node": 2, "nextNode": 3, "action": "talk", "speaker": "ดำ", "dialog": "นายชื่อไรหย๋อ" },
+            { "node": 3, "nextNode": null, "action": "talk", "speaker": "ดำ", "dialog": "อีดอกทอง" }
+        ]
+    },
+    {
+        "id": "nigga",
+        "name": "นิกก้า",
+        "location": "room",
+        "script": [
+            { "node": 1, "nextNode": 2, "action": "talk", "speaker": "ดำ", "dialog": "ควยไร" },
+            { "node": 2, "nextNode": 3, "action": "talk", "speaker": "ดำ", "dialog": "ต่อยกันป่าว" },
+            { "node": 3, "nextNode": 4, "action": "talk", "speaker": "ดำ", "dialog": "นาฮี" },
+            { "node": 4, "nextNode": null, "action": "battle" }
+        ]
+    },
+    {
+        "id": "nami",
+        "name": "นามิ",
+        "location": "school",
+        "script": [
+            { "node": 1, "nextNode": 2, "action": "talk", "speaker": "นามิ", "dialog": "อีหน้าแตด" },
+            { "node": 2, "nextNode": 3, "action": "talk", "speaker": "นามิ", "dialog": "อีหน้าตด" },
+            { "node": 3, "nextNode": null, "action": "talk", "speaker": "นามิ", "dialog": "อีหน้าตูด" }
+        ]
+    }
+]

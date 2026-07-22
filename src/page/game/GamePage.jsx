@@ -1,9 +1,26 @@
 import { Box, Divider, Button } from "@mui/material"
 import { useState, useEffect, useRef } from "react"
+import { keyframes } from "@mui/system"
+import mapData from "../../data/map.json"
+import npcData from "../../data/npc.json"
+import playerData from "../../data/player.json"
+import pokemonData from "../../data/pokemon.json"
+import { generatePlayerTeam } from "../../utils/teamBuilder"
+
+const fadePop = keyframes`
+  0% { opacity: 0; transform: translateY(40px) scale(0.5); }
+  60% { opacity: 1; transform: translateY(-10px) scale(1.1); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+`;
+
+const fadeOutShrink = keyframes`
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(20px) scale(0); }
+`;
 
 function GamePage () {
 
-    const [currentLocation, setCurrentLocation] = useState('room')
+    const [currentLocation, setCurrentLocation] = useState('bedroom')
     const [currentNpc, setCurrentNpc] = useState(null)
     
     // เปลี่ยนจาก dialogIndex เป็น currentNode (เริ่มต้นที่ Node ID 1)
@@ -16,66 +33,88 @@ function GamePage () {
     // State สำหรับพักปุ่ม Action ชุดถัดไปไว้
     const [pendingActionList, setPendingActionList] = useState(null)
     const [actionList, setActionList] = useState([])
+    const [wildEncounter, setWildEncounter] = useState(null)
+    const [isLeaving, setIsLeaving] = useState(false)
+    const [postBattlePhase, setPostBattlePhase] = useState(null)
+
+    const [isBattling, setIsBattling] = useState(false)
+    const [battleReady, setBattleReady] = useState(false)
+    const iframeRef = useRef(null)
+    const player = playerData[0]
 
     // Ref สำหรับจัดการ Timer ป้องกันลูปพิมพ์ซ้ำซ้อน
     const timerRef = useRef(null)
 
-    const npcList = [
-        {
-            id: "barry",
-            name: "ดำ",
-            location: "room",
-            script: [
-                { node: 1, nextNode: 2, action: "talk", speaker: 'ดำ', dialog: 'สวัสดี ฉัน นิกก้า' },
-                { node: 2, nextNode: 3, action: "talk", speaker: 'ดำ', dialog: 'นายชื่อไรหย๋อ' },
-                { node: 3, nextNode: null, action: "talk", speaker: 'ดำ', dialog: 'อีดอกทอง' }
-            ]
-        },
-        {
-            id: "nigga",
-            name: "นิกก้า",
-            location: "room",
-            script: [
-                { node: 1, nextNode: 2, action: "talk", speaker: 'ดำ', dialog: 'ควยไร' },
-                { node: 2, nextNode: 3, action: "talk", speaker: 'ดำ', dialog: 'ต่อยกันป่าว' },
-                { node: 3, nextNode: 4, action: "talk", speaker: 'ดำ', dialog: 'นาฮี' },
-                { node: 4, nextNode: null, action: "battle" }
-            ]
-        },
-        {
-            id: "nami",
-            name: "นามิ",
-            location: "school",
-            script: [
-                { node: 1, nextNode: 2, action: "talk", speaker: 'นามิ', dialog: 'อีหน้าแตด' },
-                { node: 2, nextNode: 3, action: "talk", speaker: 'นามิ', dialog: 'อีหน้าตด' },
-                { node: 3, nextNode: null, action: "talk", speaker: 'นามิ', dialog: 'อีหน้าตูด' }
-            ]
-        },
-    ]
+    const npcList = npcData;
 
-    const mapList = [
-        {
-            id: 'room',
-            name: 'ห้องนอน',
-            url: '',
-            action: [
-                { value: "นอน", pos: 1, color: 'white' }, 
-                { value: "ออกจากที่นี่", pos: 0, color: 'red' }
-            ]
-        },
-        {
-            id: 'school',
-            name: 'โรงเรียน',
-            url: '',
-            action: [
-                { value: "เดิน", pos: 1, color: 'white' }, 
-                { value: "ออกจากที่นี่", pos: 0, color: 'red' }
-            ]
-        },
-    ]
+    const mapList = Object.values(mapData);
 
 
+
+    // ----------------------------------------------------
+    // Iframe Battle Logic
+    // ----------------------------------------------------
+    useEffect(() => {
+        const handleMessage = (event) => {
+            if (event.data && event.data.type === 'IFRAME_READY') {
+                if (iframeRef.current && isBattling && wildEncounter) {
+                    const playerPoke = generatePlayerTeam(player.team);
+                    
+                    const botTeamPacked = generatePlayerTeam([{
+                        ...wildEncounter,
+                        name: wildEncounter.species,
+                        moves: wildEncounter.moves || ['tackle']
+                    }]);
+
+                    const playerPartyHp = player.team.map(p => p ? { hp: p.evs?.hp || 100, maxHp: p.evs?.hp || 100 } : null);
+
+                    iframeRef.current.contentWindow.postMessage({
+                        type: 'START_BATTLE',
+                        playbotFormat: 'gen9customgame',
+                        playerTeam: playerPoke,
+                        botTeam: botTeamPacked,
+                        playerName: player.name,
+                        botName: 'Wild ' + wildEncounter.species,
+                        playerPartyHp: playerPartyHp
+                    }, '*');
+                    
+                    setTimeout(() => setBattleReady(true), 1500);
+                }
+            }
+            
+            if (event.data && event.data.type === 'BATTLE_END') {
+                const { win } = event.data;
+                setIsBattling(false);
+                setBattleReady(false);
+                
+                if (win) {
+                    setPostBattlePhase('victory');
+                    setCurrentDialogData({
+                        action: "system",
+                        speaker: 'ระบบ',
+                        dialog: `คุณเอาชนะ ${wildEncounter.species} ได้สำเร็จ! จะทำอะไรต่อดี?`
+                    });
+                    setPendingActionList([
+                        { value: "ร่างท่าต่อสู้", pos: 1, color: 'gold' },
+                        { value: "ปล่อยหนีไป", pos: 0, color: 'white' }
+                    ]);
+                } else {
+                    setWildEncounter(null);
+                    setCurrentLocation('bedroom');
+                    const bedMap = mapList.find(m => m.id === 'bedroom');
+                    setPendingActionList(bedMap ? bedMap.action : []);
+                    setCurrentDialogData({
+                        action: "system",
+                        speaker: 'ระบบ',
+                        dialog: `คุณพ่ายแพ้... แต่มีคนช่วยคุณพากลับมาพักฟื้นได้ทันเวลา`
+                    });
+                }
+            }
+        };
+
+        window.addEventListener('message', handleMessage);
+        return () => window.removeEventListener('message', handleMessage);
+    }, [isBattling, wildEncounter, player, currentLocation]);
 
     // ----------------------------------------------------
     // Typewriter Effect Logic
@@ -140,6 +179,55 @@ function GamePage () {
         }
     }
 
+    const triggerEncounter = (type) => {
+        const currentMap = mapList.find(m => m.id === currentLocation)
+        const list = currentMap?.encounters?.[type]
+        if (list && list.length > 0) {
+            const encounter = list[Math.floor(Math.random() * list.length)]
+            const level = Math.floor(Math.random() * (encounter.maxLv - encounter.minLv + 1)) + encounter.minLv
+            
+            // ดึงท่าจาก pokemonData
+            const pData = pokemonData[encounter.species.toLowerCase()];
+            let latest4Moves = ['tackle']; // Default
+            if (pData && pData.learnset) {
+                // กรองเอาท่าที่ level ไม่เกิน level ปัจจุบัน
+                const validMoves = pData.learnset.filter(m => m.level <= level);
+                // เรียงจาก level มากไปน้อย
+                validMoves.sort((a, b) => b.level - a.level);
+                // เก็บชื่อท่า เอาแค่ไม่ซ้ำกัน
+                const uniqueMoves = [];
+                for (const m of validMoves) {
+                    if (!uniqueMoves.includes(m.move)) {
+                        uniqueMoves.push(m.move);
+                    }
+                }
+                if (uniqueMoves.length > 0) {
+                    latest4Moves = uniqueMoves.slice(0, 4);
+                }
+            }
+
+            setWildEncounter({ ...encounter, level, moves: latest4Moves })
+            setCurrentDialogData({
+                action: "system",
+                speaker: 'ระบบ',
+                dialog: `อ๊ะ! ${encounter.species} ป่า (Lv.${level}) ปรากฏตัวออกมา!`
+            })
+            setPendingActionList([
+                { value: "ต่อสู้", pos: 1, color: '#ef4444' },
+                { value: "หนี", pos: 0, color: 'white' }
+            ])
+            setCurrentNpc(null)
+        } else {
+            setCurrentDialogData({
+                action: "system",
+                speaker: 'ระบบ',
+                dialog: `คุณไม่พบอะไรเลย...`
+            })
+            const baseActions = [...(currentMap?.action || [])]
+            setPendingActionList(baseActions)
+        }
+    }
+
     const loadLocationState = (locId) => {
         const currentMap = mapList.find(m => m.id === locId)
         if (!currentMap) return
@@ -162,6 +250,7 @@ function GamePage () {
             dialog: `คุณอยู่ที่ ${currentMap.name} ทำอะไรต่อดีงับ`
         })
         setCurrentNpc(null)
+        setWildEncounter(null)
     }
 
     useEffect(() => {
@@ -196,6 +285,78 @@ function GamePage () {
         else if (actionItem.value === "ออกจากการสนทนา") {
             loadLocationState(currentLocation)
         } 
+        else if (actionItem.value === "สำรวจ") {
+            triggerEncounter('grass')
+        }
+        else if (actionItem.value === "ตกปลา") {
+            triggerEncounter('water')
+        }
+        else if (actionItem.value === "ปล่อยหนีไป") {
+            setIsLeaving(true)
+            setPendingActionList([])
+            setTimeout(() => {
+                setIsLeaving(false)
+                setPostBattlePhase(null)
+                loadLocationState(currentLocation)
+            }, 400)
+        }
+        else if (actionItem.value === "ร่างท่าต่อสู้") {
+            setPostBattlePhase('sketching');
+            const enemyMoves = wildEncounter?.moves || ['Tackle'];
+            const moveActions = enemyMoves.map((m) => ({
+                value: `${m}`,
+                pos: 1,
+                color: 'cyan'
+            }));
+            setPendingActionList([
+                ...moveActions,
+                { value: "ยกเลิกการร่าง", pos: 0, color: 'red' }
+            ]);
+            setCurrentDialogData({
+                action: "system",
+                speaker: 'ระบบ',
+                dialog: `เลือกท่าของ ${wildEncounter.species} ที่ต้องการร่างเลย!`
+            });
+        }
+        else if (actionItem.value === "ยกเลิกการร่าง") {
+            setPostBattlePhase('victory');
+            setPendingActionList([
+                { value: "ร่างท่าต่อสู้", pos: 1, color: 'gold' },
+                { value: "ปล่อยหนีไป", pos: 0, color: 'white' }
+            ]);
+            setCurrentDialogData({
+                action: "system",
+                speaker: 'ระบบ',
+                dialog: `ยกเลิกการร่าง จะทำอะไรต่อดี?`
+            });
+        }
+        else if (actionItem.value.startsWith("ร่างท่า: ")) {
+            const moveName = actionItem.value.replace("ร่างท่า: ", "");
+            setCurrentDialogData({
+                action: "system",
+                speaker: 'ระบบ',
+                dialog: `คุณได้ร่างท่า ${moveName} สำเร็จแล้ว!`
+            });
+            setIsLeaving(true)
+            setPendingActionList([])
+            setTimeout(() => {
+                setIsLeaving(false)
+                setPostBattlePhase(null)
+                loadLocationState(currentLocation)
+            }, 1000)
+        }
+        else if (actionItem.value === "หนี") {
+            setIsLeaving(true)
+            setPendingActionList([])
+            setTimeout(() => {
+                setIsLeaving(false)
+                loadLocationState(currentLocation)
+            }, 400)
+        }
+        else if (actionItem.value === "ต่อสู้") {
+            setIsBattling(true)
+            setBattleReady(false)
+        }
         else if (actionItem.value.startsWith("คุยกับ ")) {
             const targetNpc = npcList.find(npc => npc.id === actionItem.npcId || actionItem.value.includes(npc.name))
             if (targetNpc) {
@@ -255,7 +416,7 @@ function GamePage () {
         <Box sx={{ display: 'flex', flexDirection: 'column', height: '100vh', bgcolor: '#0b0c10', color: 'white' }}>
             {/* Header / Top Bar */}
             <Box sx={{ 
-                height: 100, 
+                height: 50, 
                 bgcolor: '#15181f', 
                 display: 'flex', 
                 alignItems: 'center', 
@@ -279,9 +440,36 @@ function GamePage () {
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 2,
-                    borderRight: '1px solid #222'
+                    borderRight: '1px solid #222',
+                    overflowY: 'auto'
                 }}>
-
+                    <Box sx={{ color: 'gray' }}>ทีมโปเกม่อน</Box>
+                    <Divider sx={{ borderColor: 'rgba(255, 255, 255, 0.12)' }} />
+                    {player.team.map((p, index) => {
+                        if (!p) return null;
+                        const spriteUrl = `https://play.pokemonshowdown.com/sprites/gen5/${p.species.toLowerCase()}.png`;
+                        return (
+                            <Box key={index} sx={{ 
+                                display: 'flex', 
+                                alignItems: 'center', 
+                                gap: 2, 
+                                p: 1, 
+                                borderRadius: 1, 
+                                bgcolor: 'rgba(255,255,255,0.03)',
+                                border: '1px solid rgba(255,255,255,0.1)'
+                            }}>
+                                <Box 
+                                    component="img" 
+                                    src={spriteUrl}
+                                    sx={{ width: 50, height: 50, imageRendering: 'pixelated', objectFit: 'contain' }}
+                                />
+                                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                                    <Box sx={{ fontWeight: 'bold', fontSize: '0.95rem' }}>{p.nickname || p.species}</Box>
+                                    <Box sx={{ fontSize: '0.8rem', color: 'gray' }}>Lv. {p.level}</Box>
+                                </Box>
+                            </Box>
+                        )
+                    })}
                 </Box>
 
                 {/* Center Content (Game Viewport) */}
@@ -290,8 +478,24 @@ function GamePage () {
                     display: 'flex', 
                     justifyContent: 'center', 
                     alignItems: 'center',
+                    backgroundImage: `url('${mapList.find(m => m.id === currentLocation)?.url || ''}')`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat'
                 }}>
-                    <img style={{width:'100%', height:'100%'}} src="https://media.discordapp.net/attachments/1058688943450751098/1516031005121712228/image.png?ex=6a61f0e6&is=6a609f66&hm=19709444f551bd1c73d3ecab34c8abcff3f3cbc8e75d9c1d24f79de09b9b04ae&=&format=webp&quality=lossless&width=365&height=269" alt="punch" />
+                    {wildEncounter && (
+                        <Box 
+                            component="img" 
+                            src={`https://play.pokemonshowdown.com/sprites/gen5/${wildEncounter.species.toLowerCase()}.png`} 
+                            alt={wildEncounter.species}
+                            sx={{
+                                width: '300px',
+                                height: '300px',
+                                imageRendering: 'pixelated',
+                                animation: `${isLeaving ? fadeOutShrink : fadePop} ${isLeaving ? '0.4s ease-in' : '0.6s cubic-bezier(0.34, 1.56, 0.64, 1)'} forwards`
+                            }}
+                        />
+                    )}
                 </Box>
 
                 {/* Right Sidebar */}
@@ -364,7 +568,7 @@ function GamePage () {
 
             {/* Bottom Dialog Box */}
             <Box sx={{ 
-                height: 250, 
+                height: 200, 
                 bgcolor: '#050508', 
                 borderTop: '1px solid #222',
                 p: 4,
@@ -392,6 +596,39 @@ function GamePage () {
                 </Box>
                 
             </Box>
+
+            {/* Battle Overlay */}
+            {isBattling && (
+                <Box sx={{
+                    position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh',
+                    bgcolor: 'rgba(0,0,0,0.9)', zIndex: 9999,
+                    display: 'flex', justifyContent: 'center', alignItems: 'center'
+                }}>
+                    {!battleReady && (
+                        <Box sx={{
+                            position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
+                            bgcolor: '#0f172a', display: 'flex', flexDirection: 'column', 
+                            justifyContent: 'center', alignItems: 'center', zIndex: 10000, color: 'white'
+                        }}>
+                            <Box 
+                                component="img" 
+                                src={wildEncounter ? `https://play.pokemonshowdown.com/sprites/gen5/${wildEncounter.species.toLowerCase()}.png` : ''} 
+                                sx={{ width: '100px', height: '100px', imageRendering: 'pixelated', animation: `${fadePop} 1s infinite` }} 
+                            />
+                            <Box sx={{ mt: 2, color: '#60a5fa', fontSize: '1.5rem', fontWeight: 'bold' }}>Entering Battle...</Box>
+                            <Box sx={{ color: '#94a3b8' }}>Setting up the arena...</Box>
+                        </Box>
+                    )}
+                    
+                    <Box sx={{ width: '100%', height: '100%', position: 'relative', opacity: battleReady ? 1 : 0, transition: 'opacity 0.5s' }}>
+                        <iframe
+                            ref={iframeRef}
+                            src="http://localhost:8080/testclient-new.html?~~localhost:8000"
+                            style={{ width: '100%', height: '100%', border: 'none' }}
+                        />
+                    </Box>
+                </Box>
+            )}
         </Box>
     )
 }
