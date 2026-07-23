@@ -1,33 +1,313 @@
 [
     {
-        "id": "barry",
-        "name": "ดำ",
-        "location": "room",
-        "script": [
-            { "node": 1, "nextNode": 2, "action": "talk", "speaker": "ดำ", "dialog": "สวัสดี ฉัน นิกก้า" },
-            { "node": 2, "nextNode": 3, "action": "talk", "speaker": "ดำ", "dialog": "นายชื่อไรหย๋อ" },
-            { "node": 3, "nextNode": null, "action": "talk", "speaker": "ดำ", "dialog": "อีดอกทอง" }
-        ]
+        "id": "gym_brock",
+        "name": "Brock",
+        "defaultLocation": "club",
+        "schedule": [
+            {
+                "start": 8,
+                "end": 18,
+                "location": "roof"
+            }
+        ],
+        "scripts": {
+            "1": [
+                {
+                    "node": 1,
+                    "nextNode": 10,
+                    "action": "push_character",
+                    "character": "brock"
+                },
+                {
+                    "node": 10,
+                    "nextNode": null,
+                    "action": "choice",
+                    "speaker": "Brock",
+                    "dialog": "ข้าคือ Brock ยิมลีดเดอร์ธาตุหิน! เจ้ากล้าท้าทายข้าหรือไม่?",
+                    "choices": [
+                        {
+                            "text": "ท้าประลอง",
+                            "nextNode": 2,
+                            "color": "orange"
+                        },
+                        {
+                            "text": "เอาไว้ก่อน",
+                            "nextNode": 99,
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "node": 2,
+                    "action": "battle",
+                    "nextNode_win": 3,
+                    "nextNode_lose": 5,
+                    "enemyTeam": [
+                        {
+                            "species": "geodude",
+                            "level": 12,
+                            "moves": [
+                                "tackle",
+                                "defensecurl"
+                            ]
+                        },
+                        {
+                            "species": "onix",
+                            "level": 14,
+                            "moves": [
+                                "tackle",
+                                "rockthrow"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "node": 3,
+                    "nextNode": 30,
+                    "action": "push_character",
+                    "character": "brock"
+                },
+                {
+                    "node": 30,
+                    "nextNode": 4,
+                    "action": "talk",
+                    "speaker": "Brock",
+                    "dialog": "แข็งแกร่งจริงๆ! ขอยอมรับความพ่ายแพ้"
+                },
+                {
+                    "node": 4,
+                    "nextNode": 40,
+                    "action": "event",
+                    "eventType": "increase_phase",
+                    "dialog": "คุณได้รับชัยชนะและแต้ม 1000 point! เลเวลแคปถูกปลดล็อคแล้ว!"
+                },
+                {
+                    "node": 40,
+                    "nextNode": null,
+                    "action": "pop_character"
+                },
+                {
+                    "node": 5,
+                    "nextNode": 50,
+                    "action": "push_character",
+                    "character": "brock"
+                },
+                {
+                    "node": 50,
+                    "nextNode": 60,
+                    "action": "talk",
+                    "speaker": "Brock",
+                    "dialog": "ยังอ่อนหัดอยู่นะ กลับไปฝึกมาใหม่ล่ะ!"
+                },
+                {
+                    "node": 60,
+                    "nextNode": null,
+                    "action": "pop_character"
+                },
+                {
+                    "node": 99,
+                    "nextNode": null,
+                    "action": "pop_character"
+                }
+            ],
+            "default": [
+                {
+                    "node": 1,
+                    "nextNode": 2,
+                    "action": "push_character",
+                    "character": "brock"
+                },
+                {
+                    "node": 2,
+                    "nextNode": 3,
+                    "action": "talk",
+                    "speaker": "Brock",
+                    "dialog": "นายแข็งแกร่งมาก ไปท้าสู้กับ Misty ดูสิ!"
+                },
+                {
+                    "node": 3,
+                    "nextNode": null,
+                    "action": "pop_character"
+                }
+            ]
+        },
+        "mapPositions": {
+            "club": {
+                "x": 30,
+                "y": 10,
+                "size": 120
+            },
+            "roof": {
+                "x": 60,
+                "y": 10,
+                "size": 150
+            }
+        }
     },
     {
-        "id": "nigga",
-        "name": "นิกก้า",
-        "location": "room",
-        "script": [
-            { "node": 1, "nextNode": 2, "action": "talk", "speaker": "ดำ", "dialog": "ควยไร" },
-            { "node": 2, "nextNode": 3, "action": "talk", "speaker": "ดำ", "dialog": "ต่อยกันป่าว" },
-            { "node": 3, "nextNode": 4, "action": "talk", "speaker": "ดำ", "dialog": "นาฮี" },
-            { "node": 4, "nextNode": null, "action": "battle" }
-        ]
-    },
-    {
-        "id": "nami",
-        "name": "นามิ",
-        "location": "school",
-        "script": [
-            { "node": 1, "nextNode": 2, "action": "talk", "speaker": "นามิ", "dialog": "อีหน้าแตด" },
-            { "node": 2, "nextNode": 3, "action": "talk", "speaker": "นามิ", "dialog": "อีหน้าตด" },
-            { "node": 3, "nextNode": null, "action": "talk", "speaker": "นามิ", "dialog": "อีหน้าตูด" }
-        ]
+        "id": "gym_misty",
+        "name": "Misty",
+        "defaultLocation": "bedroom",
+        "schedule": [
+            {
+                "start": 10,
+                "end": 16,
+                "location": "park"
+            }
+        ],
+        "scripts": {
+            "1": [
+                {
+                    "node": 1,
+                    "nextNode": 2,
+                    "action": "push_character",
+                    "character": "misty"
+                },
+                {
+                    "node": 2,
+                    "nextNode": 3,
+                    "action": "talk",
+                    "speaker": "Misty",
+                    "dialog": "ฉันจะสู้กับคนที่มีความสามารถระดับเดียวกับฉันเท่านั้น ไปเอาชนะ Brock มาก่อนสิ!"
+                },
+                {
+                    "node": 3,
+                    "nextNode": null,
+                    "action": "pop_character"
+                }
+            ],
+            "2": [
+                {
+                    "node": 1,
+                    "nextNode": 10,
+                    "action": "push_character",
+                    "character": "misty"
+                },
+                {
+                    "node": 10,
+                    "nextNode": null,
+                    "action": "choice",
+                    "speaker": "Misty",
+                    "dialog": "ฉันคือ Misty ผู้ใช้โปเกม่อนน้ำ! มาดูกันว่าเธอจะแน่แค่ไหน!",
+                    "choices": [
+                        {
+                            "text": "ท้าประลอง",
+                            "nextNode": 2,
+                            "color": "orange"
+                        },
+                        {
+                            "text": "เอาไว้ก่อน",
+                            "nextNode": 99,
+                            "color": "white"
+                        }
+                    ]
+                },
+                {
+                    "node": 2,
+                    "action": "battle",
+                    "nextNode_win": 3,
+                    "nextNode_lose": 5,
+                    "enemyTeam": [
+                        {
+                            "species": "staryu",
+                            "level": 18,
+                            "moves": [
+                                "tackle",
+                                "watergun"
+                            ]
+                        },
+                        {
+                            "species": "starmie",
+                            "level": 21,
+                            "moves": [
+                                "tackle",
+                                "watergun",
+                                "swift"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "node": 3,
+                    "nextNode": 30,
+                    "action": "push_character",
+                    "character": "misty"
+                },
+                {
+                    "node": 30,
+                    "nextNode": 4,
+                    "action": "talk",
+                    "speaker": "Misty",
+                    "dialog": "ไม่อยากจะเชื่อเลย... ฉันแพ้เหรอเนี่ย"
+                },
+                {
+                    "node": 4,
+                    "nextNode": 40,
+                    "action": "event",
+                    "eventType": "increase_phase",
+                    "dialog": "คุณได้รับชัยชนะและแต้ม 2000 point! เลเวลแคปถูกปลดล็อคแล้ว!"
+                },
+                {
+                    "node": 40,
+                    "nextNode": null,
+                    "action": "pop_character"
+                },
+                {
+                    "node": 5,
+                    "nextNode": 50,
+                    "action": "push_character",
+                    "character": "misty"
+                },
+                {
+                    "node": 50,
+                    "nextNode": 60,
+                    "action": "talk",
+                    "speaker": "Misty",
+                    "dialog": "ก็บอกแล้วไงว่าโปเกม่อนน้ำของฉันน่ะสุดยอด!"
+                },
+                {
+                    "node": 60,
+                    "nextNode": null,
+                    "action": "pop_character"
+                },
+                {
+                    "node": 99,
+                    "nextNode": null,
+                    "action": "pop_character"
+                }
+            ],
+            "default": [
+                {
+                    "node": 1,
+                    "nextNode": 2,
+                    "action": "push_character",
+                    "character": "misty"
+                },
+                {
+                    "node": 2,
+                    "nextNode": 3,
+                    "action": "talk",
+                    "speaker": "Misty",
+                    "dialog": "เก่งมากเลยนะที่เอาชนะฉันได้! การเดินทางของเธอยังอีกยาวไกล สู้ๆนะ!"
+                },
+                {
+                    "node": 3,
+                    "nextNode": null,
+                    "action": "pop_character"
+                }
+            ]
+        },
+        "mapPositions": {
+            "park": {
+                "x": 70,
+                "y": 15,
+                "size": 110
+            },
+            "bedroom": {
+                "x": 70,
+                "y": 10,
+                "size": 300
+            }
+        }
     }
 ]

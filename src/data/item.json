@@ -1,0 +1,198 @@
+[
+    {
+        "id": "aspearberry",
+        "name": "Aspear Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to thaw itself after being frozen.",
+        "price": 400
+    },
+    {
+        "id": "babiriberry",
+        "name": "Babiri Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Steel-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "chartiberry",
+        "name": "Charti Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Rock-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "cheriberry",
+        "name": "Cheri Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to free itself from paralysis.",
+        "price": 400
+    },
+    {
+        "id": "chestoberry",
+        "name": "Chesto Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to shake off its drowsiness.",
+        "price": 400
+    },
+    {
+        "id": "chilanberry",
+        "name": "Chilan Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a Normal-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "chopleberry",
+        "name": "Chople Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Fighting-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "cobaberry",
+        "name": "Coba Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Flying-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "colburberry",
+        "name": "Colbur Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Dark-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "habanberry",
+        "name": "Haban Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Dragon-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "kasibberry",
+        "name": "Kasib Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Ghost-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "kebiaberry",
+        "name": "Kebia Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Poison-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "leppaberry",
+        "name": "Leppa Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 PP to a move.",
+        "price": 400
+    },
+    {
+        "id": "lumberry",
+        "name": "Lum Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of any status condition it may have.",
+        "price": 0
+    },
+    {
+        "id": "occaberry",
+        "name": "Occa Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Fire-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "oranberry",
+        "name": "Oran Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 HP to itself.",
+        "price": 400
+    },
+    {
+        "id": "passhoberry",
+        "name": "Passho Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Water-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "payapaberry",
+        "name": "Payapa Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Psychic-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "pechaberry",
+        "name": "Pecha Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to lift the effects of being poisoned from itself.",
+        "price": 400
+    },
+    {
+        "id": "persimberry",
+        "name": "Persim Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of confusion.",
+        "price": 400
+    },
+    {
+        "id": "rawstberry",
+        "name": "Rawst Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of a burn.",
+        "price": 400
+    },
+    {
+        "id": "rindoberry",
+        "name": "Rindo Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Grass-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "roseliberry",
+        "name": "Roseli Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Fairy-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "shucaberry",
+        "name": "Shuca Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Ground-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "sitrusberry",
+        "name": "Sitrus Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holds one of these Berries, it will be able to restore a small amount of HP to itself.",
+        "price": 0
+    },
+    {
+        "id": "tangaberry",
+        "name": "Tanga Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Bug-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "wacanberry",
+        "name": "Wacan Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Electric-type move, the power of that move will be weakened.",
+        "price": 400
+    },
+    {
+        "id": "yacheberry",
+        "name": "Yache Berry",
+        "type": "berry",
+        "effect": "If a Pokémon holding this Berry is hit with a supereffective Ice-type move, the power of that move will be weakened.",
+        "price": 400
+    }
+]

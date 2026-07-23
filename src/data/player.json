@@ -21,7 +21,8 @@
                     "Rock Smash"
                 ],
                 "nature": "Naive",
-                "level": 15,
+                "level": 5,
+                "next_exp": 75,
                 "evs": {
                     "hp": 252,
                     "atk": 252,
@@ -37,9 +38,7 @@
                     "spa": 31,
                     "spd": 31,
                     "spe": 31
-                },
-                "sp": 10,
-                "max_sp": 10
+                }
             },
             {
                 "nickname": "Buizel",
@@ -51,7 +50,8 @@
                     "water gun"
                 ],
                 "nature": "Naive",
-                "level": 15,
+                "level": 5,
+                "next_exp": 100,
                 "evs": {
                     "hp": 0,
                     "atk": 0,
@@ -70,7 +70,70 @@
                 },
                 "sp": 10,
                 "max_sp": 10
+            },
+            {
+                "nickname": "Smeargle",
+                "species": "smeargle",
+                "item": "",
+                "ability": "protean",
+                "moves": [
+                    "Quick Attack",
+                    "Bulldoze",
+                    "water gun",
+                    "Rock Smash"
+                ],
+                "nature": "Naive",
+                "level": 5,
+                "next_exp": 75,
+                "evs": {
+                    "hp": 252,
+                    "atk": 252,
+                    "def": 252,
+                    "spa": 252,
+                    "spd": 252,
+                    "spe": 252
+                },
+                "ivs": {
+                    "hp": 31,
+                    "atk": 31,
+                    "def": 31,
+                    "spa": 31,
+                    "spd": 31,
+                    "spe": 31
+                }
+            },
+            {
+                "nickname": "Smeargle",
+                "species": "smeargle",
+                "item": "payapaberry",
+                "ability": "protean",
+                "moves": [
+                    "Quick Attack",
+                    "Bulldoze",
+                    "water gun",
+                    "Rock Smash"
+                ],
+                "nature": "Naive",
+                "level": 5,
+                "next_exp": 75,
+                "evs": {
+                    "hp": 252,
+                    "atk": 252,
+                    "def": 252,
+                    "spa": 252,
+                    "spd": 252,
+                    "spe": 252
+                },
+                "ivs": {
+                    "hp": 31,
+                    "atk": 31,
+                    "def": 31,
+                    "spa": 31,
+                    "spd": 31,
+                    "spe": 31
+                }
             }
+            
         ]
     }
 ]
