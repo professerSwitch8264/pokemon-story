@@ -126,7 +126,8 @@
         "level": 36,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "ivysaur": {
     "id": 2,
@@ -255,7 +256,8 @@
         "level": 50,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "venusaur": {
     "id": 3,
@@ -349,7 +351,8 @@
         "level": 58,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "charmander": {
     "id": 4,
@@ -465,7 +468,8 @@
         "level": 40,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "charmeleon": {
     "id": 5,
@@ -577,7 +581,8 @@
         "level": 54,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "charizard": {
     "id": 6,
@@ -663,7 +668,8 @@
         "level": 62,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "squirtle": {
     "id": 7,
@@ -787,7 +793,8 @@
         "level": 36,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "wartortle": {
     "id": 8,
@@ -911,7 +918,8 @@
         "level": 50,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "blastoise": {
     "id": 9,
@@ -996,7 +1004,8 @@
         "level": 56,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "caterpie": {
     "id": 10,
@@ -1076,7 +1085,8 @@
         "level": 9,
         "move": "bug-bite"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "metapod": {
     "id": 11,
@@ -1147,7 +1157,8 @@
         "level": 0,
         "move": "harden"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "butterfree": {
     "id": 12,
@@ -1245,7 +1256,8 @@
         "level": 44,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "weedle": {
     "id": 13,
@@ -1326,7 +1338,8 @@
         "level": 9,
         "move": "bug-bite"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "kakuna": {
     "id": 14,
@@ -1398,7 +1411,8 @@
         "level": 0,
         "move": "harden"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "beedrill": {
     "id": 15,
@@ -1488,7 +1502,8 @@
         "level": 44,
         "move": "fell-stinger"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pidgey": {
     "id": 16,
@@ -1614,7 +1629,8 @@
         "level": 53,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "pidgeotto": {
     "id": 17,
@@ -1740,7 +1756,8 @@
         "level": 62,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "pidgeot": {
     "id": 18,
@@ -1823,7 +1840,8 @@
         "level": 62,
         "move": "air-slash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "rattata": {
     "id": 19,
@@ -1987,7 +2005,8 @@
         "level": 34,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "raticate": {
     "id": 20,
@@ -2073,7 +2092,8 @@
         "level": 44,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "spearow": {
     "id": 21,
@@ -2190,7 +2210,8 @@
         "level": 36,
         "move": "drill-peck"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "fearow": {
     "id": 22,
@@ -2272,7 +2293,8 @@
         "level": 41,
         "move": "drill-peck"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "ekans": {
     "id": 23,
@@ -2409,7 +2431,8 @@
         "level": 49,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "arbok": {
     "id": 24,
@@ -2519,7 +2542,8 @@
         "level": 63,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "pikachu": {
     "id": 25,
@@ -2716,7 +2740,8 @@
         "level": 44,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "raichu": {
     "id": 26,
@@ -2825,7 +2850,8 @@
         "level": 5,
         "move": "thunderbolt"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "sandshrew": {
     "id": 27,
@@ -3007,7 +3033,8 @@
         "level": 45,
         "move": "earthquake"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "sandslash": {
     "id": 28,
@@ -3104,7 +3131,8 @@
         "level": 61,
         "move": "earthquake"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "nidoran-f": {
     "id": 29,
@@ -3225,7 +3253,8 @@
         "level": 55,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "nidorina": {
     "id": 30,
@@ -3349,7 +3378,8 @@
         "level": 71,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "nidoqueen": {
     "id": 31,
@@ -3432,7 +3462,8 @@
         "level": 1,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "nidoran-m": {
     "id": 32,
@@ -3553,7 +3584,8 @@
         "level": 55,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "nidorino": {
     "id": 33,
@@ -3677,7 +3709,8 @@
         "level": 71,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "nidoking": {
     "id": 34,
@@ -3760,7 +3793,8 @@
         "level": 1,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "clefairy": {
     "id": 35,
@@ -3916,7 +3950,8 @@
         "level": 48,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "clefable": {
     "id": 36,
@@ -3958,7 +3993,8 @@
         "level": 1,
         "move": "life-dew"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "vulpix": {
     "id": 37,
@@ -4135,7 +4171,8 @@
         "level": 52,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "ninetales": {
     "id": 38,
@@ -4172,7 +4209,8 @@
         "level": 1,
         "move": "quick-attack"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "jigglypuff": {
     "id": 39,
@@ -4325,7 +4363,8 @@
         "level": 44,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 170
   },
   "wigglytuff": {
     "id": 40,
@@ -4436,7 +4475,8 @@
         "level": 5,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "zubat": {
     "id": 41,
@@ -4557,7 +4597,8 @@
         "level": 55,
         "move": "leech-life"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "golbat": {
     "id": 42,
@@ -4682,7 +4723,8 @@
         "level": 69,
         "move": "leech-life"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "oddish": {
     "id": 43,
@@ -4807,7 +4849,8 @@
         "level": 40,
         "move": "petal-dance"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "gloom": {
     "id": 44,
@@ -4980,7 +5023,8 @@
         "level": 50,
         "move": "petal-dance"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "vileplume": {
     "id": 45,
@@ -5066,7 +5110,8 @@
         "level": 1,
         "move": "moonblast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "paras": {
     "id": 46,
@@ -5184,7 +5229,8 @@
         "level": 54,
         "move": "x-scissor"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "parasect": {
     "id": 47,
@@ -5263,7 +5309,8 @@
         "level": 66,
         "move": "x-scissor"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "venonat": {
     "id": 48,
@@ -5385,7 +5432,8 @@
         "level": 47,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "venomoth": {
     "id": 49,
@@ -5472,7 +5520,8 @@
         "level": 55,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "diglett": {
     "id": 50,
@@ -5636,7 +5685,8 @@
         "level": 44,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "dugtrio": {
     "id": 51,
@@ -5726,7 +5776,8 @@
         "level": 54,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "meowth": {
     "id": 52,
@@ -5935,7 +5986,8 @@
         "level": 44,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "persian": {
     "id": 53,
@@ -6021,7 +6073,8 @@
         "level": 54,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "psyduck": {
     "id": 54,
@@ -6146,7 +6199,8 @@
         "level": 39,
         "move": "wonder-room"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "golduck": {
     "id": 55,
@@ -6236,7 +6290,8 @@
         "level": 45,
         "move": "wonder-room"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "mankey": {
     "id": 56,
@@ -6369,7 +6424,8 @@
         "level": 48,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "primeape": {
     "id": 57,
@@ -6509,7 +6565,8 @@
         "level": 57,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "growlithe": {
     "id": 58,
@@ -6691,7 +6748,8 @@
         "level": 56,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "arcanine": {
     "id": 59,
@@ -6785,7 +6843,8 @@
         "level": 5,
         "move": "flamethrower"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "poliwag": {
     "id": 60,
@@ -6898,7 +6957,8 @@
         "level": 54,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "poliwhirl": {
     "id": 61,
@@ -7059,7 +7119,8 @@
         "level": 66,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "poliwrath": {
     "id": 62,
@@ -7102,7 +7163,8 @@
         "level": 1,
         "move": "hypnosis"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "abra": {
     "id": 63,
@@ -7175,7 +7237,8 @@
         "level": 1,
         "move": "teleport"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "kadabra": {
     "id": 64,
@@ -7300,7 +7363,8 @@
         "level": 50,
         "move": "calm-mind"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "alakazam": {
     "id": 65,
@@ -7382,7 +7446,8 @@
         "level": 50,
         "move": "calm-mind"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "machop": {
     "id": 66,
@@ -7511,7 +7576,8 @@
         "level": 52,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "machoke": {
     "id": 67,
@@ -7640,7 +7706,8 @@
         "level": 66,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "machamp": {
     "id": 68,
@@ -7730,7 +7797,8 @@
         "level": 66,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bellsprout": {
     "id": 69,
@@ -7855,7 +7923,8 @@
         "level": 52,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "weepinbell": {
     "id": 70,
@@ -7983,7 +8052,8 @@
         "level": 58,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "victreebel": {
     "id": 71,
@@ -8033,7 +8103,8 @@
         "level": 44,
         "move": "leaf-blade"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tentacool": {
     "id": 72,
@@ -8159,7 +8230,8 @@
         "level": 48,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "tentacruel": {
     "id": 73,
@@ -8246,7 +8318,8 @@
         "level": 58,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "geodude": {
     "id": 74,
@@ -8415,7 +8488,8 @@
         "level": 42,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "graveler": {
     "id": 75,
@@ -8584,7 +8658,8 @@
         "level": 54,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "golem": {
     "id": 76,
@@ -8667,7 +8742,8 @@
         "level": 54,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "ponyta": {
     "id": 77,
@@ -8831,7 +8907,8 @@
         "level": 55,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "rapidash": {
     "id": 78,
@@ -8925,7 +9002,8 @@
         "level": 63,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "slowpoke": {
     "id": 79,
@@ -9200,7 +9278,8 @@
         "level": 45,
         "move": "heal-pulse"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "slowbro": {
     "id": 80,
@@ -9299,7 +9378,8 @@
         "level": 51,
         "move": "heal-pulse"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "magnemite": {
     "id": 81,
@@ -9429,7 +9509,8 @@
         "level": 52,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "magneton": {
     "id": 82,
@@ -9810,7 +9891,8 @@
         "level": 64,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "farfetchd": {
     "id": 83,
@@ -9943,7 +10025,8 @@
         "level": 65,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "doduo": {
     "id": 84,
@@ -10065,7 +10148,8 @@
         "level": 43,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "dodrio": {
     "id": 85,
@@ -10148,7 +10232,8 @@
         "level": 50,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "seel": {
     "id": 86,
@@ -10285,7 +10370,8 @@
         "level": 53,
         "move": "snowscape"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "dewgong": {
     "id": 87,
@@ -10380,7 +10466,8 @@
         "level": 65,
         "move": "snowscape"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "grimer": {
     "id": 88,
@@ -10556,7 +10643,8 @@
         "level": 48,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "muk": {
     "id": 89,
@@ -10646,7 +10734,8 @@
         "level": 57,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "shellder": {
     "id": 90,
@@ -10774,7 +10863,8 @@
         "level": 48,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "cloyster": {
     "id": 91,
@@ -10873,7 +10963,8 @@
         "level": 5,
         "move": "razor-shell"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "gastly": {
     "id": 92,
@@ -10997,7 +11088,8 @@
         "level": 48,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "haunter": {
     "id": 93,
@@ -11125,7 +11217,8 @@
         "level": 60,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "gengar": {
     "id": 94,
@@ -11218,7 +11311,8 @@
         "level": 60,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "onix": {
     "id": 95,
@@ -11363,7 +11457,8 @@
         "level": 56,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "drowzee": {
     "id": 96,
@@ -11488,7 +11583,8 @@
         "level": 49,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "hypno": {
     "id": 97,
@@ -11574,7 +11670,8 @@
         "level": 56,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "krabby": {
     "id": 98,
@@ -11699,7 +11796,8 @@
         "level": 48,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "kingler": {
     "id": 99,
@@ -11789,7 +11887,8 @@
         "level": 60,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "voltorb": {
     "id": 100,
@@ -11972,7 +12071,8 @@
         "level": 50,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "electrode": {
     "id": 101,
@@ -12070,7 +12170,8 @@
         "level": 58,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "exeggcute": {
     "id": 102,
@@ -12240,7 +12341,8 @@
         "level": 55,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "exeggutor": {
     "id": 103,
@@ -12338,7 +12440,8 @@
         "level": 1,
         "move": "psyshock"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cubone": {
     "id": 104,
@@ -12506,7 +12609,8 @@
         "level": 48,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "marowak": {
     "id": 105,
@@ -12588,7 +12692,8 @@
         "level": 60,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "hitmonlee": {
     "id": 106,
@@ -12686,7 +12791,8 @@
         "level": 50,
         "move": "axe-kick"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "hitmonchan": {
     "id": 107,
@@ -12788,7 +12894,8 @@
         "level": 44,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "lickitung": {
     "id": 108,
@@ -12908,7 +13015,8 @@
         "level": 60,
         "move": "belly-drum"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "koffing": {
     "id": 109,
@@ -13080,7 +13188,8 @@
         "level": 52,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "weezing": {
     "id": 110,
@@ -13174,7 +13283,8 @@
         "level": 62,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "rhyhorn": {
     "id": 111,
@@ -13300,7 +13410,8 @@
         "level": 60,
         "move": "horn-drill"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "rhydon": {
     "id": 112,
@@ -13433,7 +13544,8 @@
         "level": 68,
         "move": "horn-drill"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "chansey": {
     "id": 113,
@@ -13582,7 +13694,8 @@
         "level": 52,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "tangela": {
     "id": 114,
@@ -13718,7 +13831,8 @@
         "level": 56,
         "move": "grassy-terrain"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kangaskhan": {
     "id": 115,
@@ -13804,7 +13918,8 @@
         "level": 52,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "horsea": {
     "id": 116,
@@ -13925,7 +14040,8 @@
         "level": 55,
         "move": "rain-dance"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "seadra": {
     "id": 117,
@@ -14049,7 +14165,8 @@
         "level": 65,
         "move": "rain-dance"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "goldeen": {
     "id": 118,
@@ -14166,7 +14283,8 @@
         "level": 50,
         "move": "horn-drill"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "seaking": {
     "id": 119,
@@ -14240,7 +14358,8 @@
         "level": 58,
         "move": "horn-drill"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "staryu": {
     "id": 120,
@@ -14376,7 +14495,8 @@
         "level": 56,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "starmie": {
     "id": 121,
@@ -14467,7 +14587,8 @@
         "level": 1,
         "move": "power-gem"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "mr-mime": {
     "id": 122,
@@ -14624,7 +14745,8 @@
         "level": 52,
         "move": "teeter-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "scyther": {
     "id": 123,
@@ -14794,7 +14916,8 @@
         "level": 44,
         "move": "swords-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "jynx": {
     "id": 124,
@@ -14881,7 +15004,8 @@
         "level": 58,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "electabuzz": {
     "id": 125,
@@ -15012,7 +15136,8 @@
         "level": 64,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "magmar": {
     "id": 126,
@@ -15143,7 +15268,8 @@
         "level": 64,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pinsir": {
     "id": 127,
@@ -15229,7 +15355,8 @@
         "level": 52,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tauros": {
     "id": 128,
@@ -15311,7 +15438,8 @@
         "level": 60,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "magikarp": {
     "id": 129,
@@ -15391,7 +15519,8 @@
         "level": 25,
         "move": "flail"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "gyarados": {
     "id": 130,
@@ -15493,7 +15622,8 @@
         "level": 52,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "lapras": {
     "id": 131,
@@ -15580,7 +15710,8 @@
         "level": 65,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "ditto": {
     "id": 132,
@@ -15609,7 +15740,8 @@
         "level": 1,
         "move": "transform"
       }
-    ]
+    ],
+    "catchRate": 35
   },
   "eevee": {
     "id": 133,
@@ -16494,7 +16626,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "vaporeon": {
     "id": 134,
@@ -16615,7 +16748,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "jolteon": {
     "id": 135,
@@ -16736,7 +16870,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "flareon": {
     "id": 136,
@@ -16853,7 +16988,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "porygon": {
     "id": 137,
@@ -16981,7 +17117,8 @@
         "level": 60,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "omanyte": {
     "id": 138,
@@ -17107,7 +17244,8 @@
         "level": 60,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "omastar": {
     "id": 139,
@@ -17194,7 +17332,8 @@
         "level": 70,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kabuto": {
     "id": 140,
@@ -17320,7 +17459,8 @@
         "level": 60,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kabutops": {
     "id": 141,
@@ -17415,7 +17555,8 @@
         "level": 70,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "aerodactyl": {
     "id": 142,
@@ -17498,7 +17639,8 @@
         "level": 60,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "snorlax": {
     "id": 143,
@@ -17632,7 +17774,8 @@
         "level": 56,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "articuno": {
     "id": 144,
@@ -17722,7 +17865,8 @@
         "level": 70,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "zapdos": {
     "id": 145,
@@ -17812,7 +17956,8 @@
         "level": 70,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "moltres": {
     "id": 146,
@@ -17902,7 +18047,8 @@
         "level": 70,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "dratini": {
     "id": 147,
@@ -18026,7 +18172,8 @@
         "level": 60,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dragonair": {
     "id": 148,
@@ -18150,7 +18297,8 @@
         "level": 74,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dragonite": {
     "id": 149,
@@ -18256,7 +18404,8 @@
         "level": 80,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "mewtwo": {
     "id": 150,
@@ -18345,7 +18494,8 @@
         "level": 88,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "mew": {
     "id": 151,
@@ -18417,7 +18567,8 @@
         "level": 100,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "chikorita": {
     "id": 152,
@@ -18541,7 +18692,8 @@
         "level": 45,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bayleef": {
     "id": 153,
@@ -18665,7 +18817,8 @@
         "level": 54,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "meganium": {
     "id": 154,
@@ -18754,7 +18907,8 @@
         "level": 65,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cyndaquil": {
     "id": 155,
@@ -18926,7 +19080,8 @@
         "level": 64,
         "move": "eruption"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "quilava": {
     "id": 156,
@@ -19101,7 +19256,8 @@
         "level": 75,
         "move": "eruption"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "typhlosion": {
     "id": 157,
@@ -19194,7 +19350,8 @@
         "level": 74,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "totodile": {
     "id": 158,
@@ -19318,7 +19475,8 @@
         "level": 50,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "croconaw": {
     "id": 159,
@@ -19442,7 +19600,8 @@
         "level": 55,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "feraligatr": {
     "id": 160,
@@ -19527,7 +19686,8 @@
         "level": 70,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sentret": {
     "id": 161,
@@ -19648,7 +19808,8 @@
         "level": 47,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "furret": {
     "id": 162,
@@ -19734,7 +19895,8 @@
         "level": 56,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "hoothoot": {
     "id": 163,
@@ -19864,7 +20026,8 @@
         "level": 39,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "noctowl": {
     "id": 164,
@@ -19951,7 +20114,8 @@
         "level": 53,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "ledyba": {
     "id": 165,
@@ -20077,7 +20241,8 @@
         "level": 40,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "ledian": {
     "id": 166,
@@ -20160,7 +20325,8 @@
         "level": 47,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "spinarak": {
     "id": 167,
@@ -20294,7 +20460,8 @@
         "level": 51,
         "move": "toxic-thread"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "ariados": {
     "id": 168,
@@ -20401,7 +20568,8 @@
         "level": 59,
         "move": "toxic-thread"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "crobat": {
     "id": 169,
@@ -20495,7 +20663,8 @@
         "level": 69,
         "move": "leech-life"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "chinchou": {
     "id": 170,
@@ -20617,7 +20786,8 @@
         "level": 44,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lanturn": {
     "id": 171,
@@ -20712,7 +20882,8 @@
         "level": 54,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "pichu": {
     "id": 172,
@@ -20808,7 +20979,8 @@
         "level": 20,
         "move": "charm"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "cleffa": {
     "id": 173,
@@ -20909,7 +21081,8 @@
         "level": 20,
         "move": "charm"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "igglybuff": {
     "id": 174,
@@ -21011,7 +21184,8 @@
         "level": 20,
         "move": "charm"
       }
-    ]
+    ],
+    "catchRate": 170
   },
   "togepi": {
     "id": 175,
@@ -21140,7 +21314,8 @@
         "level": 52,
         "move": "wish"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "togetic": {
     "id": 176,
@@ -21277,7 +21452,8 @@
         "level": 52,
         "move": "wish"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "natu": {
     "id": 177,
@@ -21395,7 +21571,8 @@
         "level": 45,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "xatu": {
     "id": 178,
@@ -21478,7 +21655,8 @@
         "level": 55,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "mareep": {
     "id": 179,
@@ -21606,7 +21784,8 @@
         "level": 46,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "flaaffy": {
     "id": 180,
@@ -21734,7 +21913,8 @@
         "level": 56,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "ampharos": {
     "id": 181,
@@ -21839,7 +22019,8 @@
         "level": 62,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bellossom": {
     "id": 182,
@@ -21928,7 +22109,8 @@
         "level": 1,
         "move": "moonblast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "marill": {
     "id": 183,
@@ -22066,7 +22248,8 @@
         "level": 36,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "azumarill": {
     "id": 184,
@@ -22161,7 +22344,8 @@
         "level": 50,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "sudowoodo": {
     "id": 185,
@@ -22259,7 +22443,8 @@
         "level": 48,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 65
   },
   "politoed": {
     "id": 186,
@@ -22305,7 +22490,8 @@
         "level": 1,
         "move": "rain-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "hoppip": {
     "id": 187,
@@ -22447,7 +22633,8 @@
         "level": 38,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "skiploom": {
     "id": 188,
@@ -22589,7 +22776,8 @@
         "level": 44,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "jumpluff": {
     "id": 189,
@@ -22688,7 +22876,8 @@
         "level": 55,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "aipom": {
     "id": 190,
@@ -22816,7 +23005,8 @@
         "level": 43,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sunkern": {
     "id": 191,
@@ -22940,7 +23130,8 @@
         "level": 39,
         "move": "seed-bomb"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "sunflora": {
     "id": 192,
@@ -23034,7 +23225,8 @@
         "level": 50,
         "move": "petal-blizzard"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "yanma": {
     "id": 193,
@@ -23167,7 +23359,8 @@
         "level": 57,
         "move": "bug-buzz"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "wooper": {
     "id": 194,
@@ -23334,7 +23527,8 @@
         "level": 40,
         "move": "earthquake"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "quagsire": {
     "id": 195,
@@ -23413,7 +23607,8 @@
         "level": 52,
         "move": "earthquake"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "espeon": {
     "id": 196,
@@ -23530,7 +23725,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "umbreon": {
     "id": 197,
@@ -23651,7 +23847,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "murkrow": {
     "id": 198,
@@ -23776,7 +23973,8 @@
         "level": 60,
         "move": "quash"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "slowking": {
     "id": 199,
@@ -23879,7 +24077,8 @@
         "level": 45,
         "move": "heal-pulse"
       }
-    ]
+    ],
+    "catchRate": 70
   },
   "misdreavus": {
     "id": 200,
@@ -23997,7 +24196,8 @@
         "level": 50,
         "move": "power-gem"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "unown": {
     "id": 201,
@@ -24025,7 +24225,8 @@
         "level": 1,
         "move": "hidden-power"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "wobbuffet": {
     "id": 202,
@@ -24082,7 +24283,8 @@
         "level": 1,
         "move": "encore"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "girafarig": {
     "id": 203,
@@ -24219,7 +24421,8 @@
         "level": 50,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "pineco": {
     "id": 204,
@@ -24343,7 +24546,8 @@
         "level": 45,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "forretress": {
     "id": 205,
@@ -24441,7 +24645,8 @@
         "level": 50,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "dunsparce": {
     "id": 206,
@@ -24573,7 +24778,8 @@
         "level": 52,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "gligar": {
     "id": 207,
@@ -24702,7 +24908,8 @@
         "level": 50,
         "move": "swords-dance"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "steelix": {
     "id": 208,
@@ -24825,7 +25032,8 @@
         "level": 60,
         "move": "magnet-rise"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "snubbull": {
     "id": 209,
@@ -24958,7 +25166,8 @@
         "level": 49,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "granbull": {
     "id": 210,
@@ -25052,7 +25261,8 @@
         "level": 59,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "qwilfish": {
     "id": 211,
@@ -25282,7 +25492,8 @@
         "level": 56,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "scizor": {
     "id": 212,
@@ -25377,7 +25588,8 @@
         "level": 44,
         "move": "swords-dance"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "shuckle": {
     "id": 213,
@@ -25468,7 +25680,8 @@
         "level": 65,
         "move": "shell-smash"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "heracross": {
     "id": 214,
@@ -25555,7 +25768,8 @@
         "level": 60,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sneasel": {
     "id": 215,
@@ -25724,7 +25938,8 @@
         "level": 60,
         "move": "slash"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "teddiursa": {
     "id": 216,
@@ -25853,7 +26068,8 @@
         "level": 41,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "ursaring": {
     "id": 217,
@@ -25993,7 +26209,8 @@
         "level": 64,
         "move": "hammer-arm"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "slugma": {
     "id": 218,
@@ -26122,7 +26339,8 @@
         "level": 50,
         "move": "earth-power"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "magcargo": {
     "id": 219,
@@ -26213,7 +26431,8 @@
         "level": 54,
         "move": "flamethrower"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "swinub": {
     "id": 220,
@@ -26331,7 +26550,8 @@
         "level": 50,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "piloswine": {
     "id": 221,
@@ -26464,7 +26684,8 @@
         "level": 65,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "corsola": {
     "id": 222,
@@ -26589,7 +26810,8 @@
         "level": 55,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "remoraid": {
     "id": 223,
@@ -26710,7 +26932,8 @@
         "level": 44,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "octillery": {
     "id": 224,
@@ -26804,7 +27027,8 @@
         "level": 54,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "delibird": {
     "id": 225,
@@ -26839,7 +27063,8 @@
         "level": 25,
         "move": "drill-peck"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "mantine": {
     "id": 226,
@@ -26934,7 +27159,8 @@
         "level": 48,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "skarmory": {
     "id": 227,
@@ -27021,7 +27247,8 @@
         "level": 52,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "houndour": {
     "id": 228,
@@ -27155,7 +27382,8 @@
         "level": 56,
         "move": "inferno"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "houndoom": {
     "id": 229,
@@ -27250,7 +27478,8 @@
         "level": 62,
         "move": "inferno"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kingdra": {
     "id": 230,
@@ -27341,7 +27570,8 @@
         "level": 72,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "phanpy": {
     "id": 231,
@@ -27457,7 +27687,8 @@
         "level": 42,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "donphan": {
     "id": 232,
@@ -27546,7 +27777,8 @@
         "level": 50,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "porygon2": {
     "id": 233,
@@ -27678,7 +27910,8 @@
         "level": 60,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "stantler": {
     "id": 234,
@@ -27802,7 +28035,8 @@
         "level": 55,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "smeargle": {
     "id": 235,
@@ -27832,7 +28066,8 @@
         "level": 1,
         "move": "sketch"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tyrogue": {
     "id": 236,
@@ -28001,7 +28236,8 @@
         "level": 1,
         "move": "helping-hand"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "hitmontop": {
     "id": 237,
@@ -28099,7 +28335,8 @@
         "level": 44,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "smoochum": {
     "id": 238,
@@ -28225,7 +28462,8 @@
         "level": 48,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "elekid": {
     "id": 239,
@@ -28349,7 +28587,8 @@
         "level": 48,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "magby": {
     "id": 240,
@@ -28473,7 +28712,8 @@
         "level": 48,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "miltank": {
     "id": 241,
@@ -28551,7 +28791,8 @@
         "level": 55,
         "move": "high-horsepower"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "blissey": {
     "id": 242,
@@ -28657,7 +28898,8 @@
         "level": 52,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "raikou": {
     "id": 243,
@@ -28754,7 +28996,8 @@
         "level": 78,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "entei": {
     "id": 244,
@@ -28847,7 +29090,8 @@
         "level": 78,
         "move": "eruption"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "suicune": {
     "id": 245,
@@ -28940,7 +29184,8 @@
         "level": 78,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "larvitar": {
     "id": 246,
@@ -29073,7 +29318,8 @@
         "level": 42,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pupitar": {
     "id": 247,
@@ -29209,7 +29455,8 @@
         "level": 52,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tyranitar": {
     "id": 248,
@@ -29323,7 +29570,8 @@
         "level": 59,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "lugia": {
     "id": 249,
@@ -29405,7 +29653,8 @@
         "level": 90,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "ho-oh": {
     "id": 250,
@@ -29491,7 +29740,8 @@
         "level": 99,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "celebi": {
     "id": 251,
@@ -29564,7 +29814,8 @@
         "level": 100,
         "move": "perish-song"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "treecko": {
     "id": 252,
@@ -29692,7 +29943,8 @@
         "level": 39,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "grovyle": {
     "id": 253,
@@ -29820,7 +30072,8 @@
         "level": 55,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sceptile": {
     "id": 254,
@@ -29905,7 +30158,8 @@
         "level": 56,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "torchic": {
     "id": 255,
@@ -30033,7 +30287,8 @@
         "level": 39,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "combusken": {
     "id": 256,
@@ -30166,7 +30421,8 @@
         "level": 55,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "blaziken": {
     "id": 257,
@@ -30256,7 +30512,8 @@
         "level": 63,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "mudkip": {
     "id": 258,
@@ -30384,7 +30641,8 @@
         "level": 39,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "marshtomp": {
     "id": 259,
@@ -30513,7 +30771,8 @@
         "level": 55,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "swampert": {
     "id": 260,
@@ -30599,7 +30858,8 @@
         "level": 63,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "poochyena": {
     "id": 261,
@@ -30728,7 +30988,8 @@
         "level": 44,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "mightyena": {
     "id": 262,
@@ -30834,7 +31095,8 @@
         "level": 56,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "zigzagoon": {
     "id": 263,
@@ -31002,7 +31264,8 @@
         "level": 36,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "linoone": {
     "id": 264,
@@ -31146,7 +31409,8 @@
         "level": 48,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "wurmple": {
     "id": 265,
@@ -31272,7 +31536,8 @@
         "level": 15,
         "move": "bug-bite"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "silcoon": {
     "id": 266,
@@ -31343,7 +31608,8 @@
         "level": 0,
         "move": "harden"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "beautifly": {
     "id": 267,
@@ -31441,7 +31707,8 @@
         "level": 40,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cascoon": {
     "id": 268,
@@ -31512,7 +31779,8 @@
         "level": 0,
         "move": "harden"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "dustox": {
     "id": 269,
@@ -31610,7 +31878,8 @@
         "level": 40,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "lotad": {
     "id": 270,
@@ -31732,7 +32001,8 @@
         "level": 43,
         "move": "energy-ball"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "lombre": {
     "id": 271,
@@ -31873,7 +32143,8 @@
         "level": 64,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "ludicolo": {
     "id": 272,
@@ -31912,7 +32183,8 @@
         "level": 1,
         "move": "fake-out"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "seedot": {
     "id": 273,
@@ -32033,7 +32305,8 @@
         "level": 33,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "nuzleaf": {
     "id": 274,
@@ -32182,7 +32455,8 @@
         "level": 57,
         "move": "leaf-blade"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "shiftry": {
     "id": 275,
@@ -32229,7 +32503,8 @@
         "level": 1,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "taillow": {
     "id": 276,
@@ -32350,7 +32625,8 @@
         "level": 45,
         "move": "reversal"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "swellow": {
     "id": 277,
@@ -32432,7 +32708,8 @@
         "level": 57,
         "move": "reversal"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "wingull": {
     "id": 278,
@@ -32546,7 +32823,8 @@
         "level": 45,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "pelipper": {
     "id": 279,
@@ -32649,7 +32927,8 @@
         "level": 62,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "ralts": {
     "id": 280,
@@ -32779,7 +33058,8 @@
         "level": 39,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "kirlia": {
     "id": 281,
@@ -32954,7 +33234,8 @@
         "level": 53,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "gardevoir": {
     "id": 282,
@@ -33065,7 +33346,8 @@
         "level": 63,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "surskit": {
     "id": 283,
@@ -33174,7 +33456,8 @@
         "level": 38,
         "move": "sticky-web"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "masquerain": {
     "id": 284,
@@ -33252,7 +33535,8 @@
         "level": 52,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "shroomish": {
     "id": 285,
@@ -33369,7 +33653,8 @@
         "level": 40,
         "move": "spore"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "breloom": {
     "id": 286,
@@ -33468,7 +33753,8 @@
         "level": 55,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "slakoth": {
     "id": 287,
@@ -33579,7 +33865,8 @@
         "level": 38,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "vigoroth": {
     "id": 288,
@@ -33690,7 +33977,8 @@
         "level": 43,
         "move": "reversal"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "slaking": {
     "id": 289,
@@ -33770,7 +34058,8 @@
         "level": 63,
         "move": "hammer-arm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "nincada": {
     "id": 290,
@@ -33921,7 +34210,8 @@
         "level": 40,
         "move": "dig"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "ninjask": {
     "id": 291,
@@ -34027,7 +34317,8 @@
         "level": 64,
         "move": "x-scissor"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "shedinja": {
     "id": 292,
@@ -34120,7 +34411,8 @@
         "level": 64,
         "move": "phantom-force"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "whismur": {
     "id": 293,
@@ -34236,7 +34528,8 @@
         "level": 45,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "loudred": {
     "id": 294,
@@ -34356,7 +34649,8 @@
         "level": 57,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "exploud": {
     "id": 295,
@@ -34457,7 +34751,8 @@
         "level": 81,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "makuhita": {
     "id": 296,
@@ -34594,7 +34889,8 @@
         "level": 46,
         "move": "heavy-slam"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "hariyama": {
     "id": 297,
@@ -34696,7 +34992,8 @@
         "level": 60,
         "move": "headlong-rush"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "azurill": {
     "id": 298,
@@ -34798,7 +35095,8 @@
         "level": 15,
         "move": "bounce"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "nosepass": {
     "id": 299,
@@ -35174,7 +35472,8 @@
         "level": 43,
         "move": "lock-on"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "skitty": {
     "id": 300,
@@ -35314,7 +35613,8 @@
         "level": 46,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "delcatty": {
     "id": 301,
@@ -35408,7 +35708,8 @@
         "level": 1,
         "move": "baby-doll-eyes"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "sableye": {
     "id": 302,
@@ -35503,7 +35804,8 @@
         "level": 48,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "mawile": {
     "id": 303,
@@ -35594,7 +35896,8 @@
         "level": 48,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "aron": {
     "id": 304,
@@ -35732,7 +36035,8 @@
         "level": 60,
         "move": "metal-burst"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "lairon": {
     "id": 305,
@@ -35870,7 +36174,8 @@
         "level": 76,
         "move": "metal-burst"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "aggron": {
     "id": 306,
@@ -35965,7 +36270,8 @@
         "level": 88,
         "move": "metal-burst"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "meditite": {
     "id": 307,
@@ -36098,7 +36404,8 @@
         "level": 44,
         "move": "counter"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "medicham": {
     "id": 308,
@@ -36200,7 +36507,8 @@
         "level": 53,
         "move": "axe-kick"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "electrike": {
     "id": 309,
@@ -36321,7 +36629,8 @@
         "level": 44,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "manectric": {
     "id": 310,
@@ -36407,7 +36716,8 @@
         "level": 60,
         "move": "electric-terrain"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "plusle": {
     "id": 311,
@@ -36508,7 +36818,8 @@
         "level": 49,
         "move": "entrainment"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "minun": {
     "id": 312,
@@ -36609,7 +36920,8 @@
         "level": 49,
         "move": "entrainment"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "volbeat": {
     "id": 313,
@@ -36691,7 +37003,8 @@
         "level": 47,
         "move": "infestation"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "illumise": {
     "id": 314,
@@ -36777,7 +37090,8 @@
         "level": 47,
         "move": "infestation"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "roselia": {
     "id": 315,
@@ -36918,7 +37232,8 @@
         "level": 60,
         "move": "petal-dance"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "gulpin": {
     "id": 316,
@@ -37051,7 +37366,8 @@
         "level": 49,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "swalot": {
     "id": 317,
@@ -37141,7 +37457,8 @@
         "level": 49,
         "move": "belch"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "carvanha": {
     "id": 318,
@@ -37262,7 +37579,8 @@
         "level": 44,
         "move": "take-down"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "sharpedo": {
     "id": 319,
@@ -37348,7 +37666,8 @@
         "level": 52,
         "move": "take-down"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "wailmer": {
     "id": 320,
@@ -37481,7 +37800,8 @@
         "level": 48,
         "move": "water-spout"
       }
-    ]
+    ],
+    "catchRate": 125
   },
   "wailord": {
     "id": 321,
@@ -37579,7 +37899,8 @@
         "level": 54,
         "move": "water-spout"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "numel": {
     "id": 322,
@@ -37705,7 +38026,8 @@
         "level": 47,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "camerupt": {
     "id": 323,
@@ -37796,7 +38118,8 @@
         "level": 46,
         "move": "earthquake"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "torkoal": {
     "id": 324,
@@ -37894,7 +38217,8 @@
         "level": 64,
         "move": "eruption"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "spoink": {
     "id": 325,
@@ -38015,7 +38339,8 @@
         "level": 50,
         "move": "bounce"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "grumpig": {
     "id": 326,
@@ -38101,7 +38426,8 @@
         "level": 60,
         "move": "bounce"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "spinda": {
     "id": 327,
@@ -38175,7 +38501,8 @@
         "level": 55,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "trapinch": {
     "id": 328,
@@ -38296,7 +38623,8 @@
         "level": 48,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "vibrava": {
     "id": 329,
@@ -38424,7 +38752,8 @@
         "level": 62,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "flygon": {
     "id": 330,
@@ -38513,7 +38842,8 @@
         "level": 68,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cacnea": {
     "id": 331,
@@ -38649,7 +38979,8 @@
         "level": 54,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "cacturne": {
     "id": 332,
@@ -38747,7 +39078,8 @@
         "level": 54,
         "move": "sandstorm"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "swablu": {
     "id": 333,
@@ -38868,7 +39200,8 @@
         "level": 44,
         "move": "perish-song"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "altaria": {
     "id": 334,
@@ -38958,7 +39291,8 @@
         "level": 56,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "zangoose": {
     "id": 335,
@@ -39047,7 +39381,8 @@
         "level": 50,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "seviper": {
     "id": 336,
@@ -39140,7 +39475,8 @@
         "level": 46,
         "move": "sludge-bomb"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "lunatone": {
     "id": 337,
@@ -39229,7 +39565,8 @@
         "level": 50,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "solrock": {
     "id": 338,
@@ -39318,7 +39655,8 @@
         "level": 50,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "barboach": {
     "id": 339,
@@ -39432,7 +39770,8 @@
         "level": 48,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "whiscash": {
     "id": 340,
@@ -39519,7 +39858,8 @@
         "level": 56,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "corphish": {
     "id": 341,
@@ -39648,7 +39988,8 @@
         "level": 52,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 205
   },
   "crawdaunt": {
     "id": 342,
@@ -39739,7 +40080,8 @@
         "level": 64,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 155
   },
   "baltoy": {
     "id": 343,
@@ -39875,7 +40217,8 @@
         "level": 42,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "claydol": {
     "id": 344,
@@ -39976,7 +40319,8 @@
         "level": 48,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "lileep": {
     "id": 345,
@@ -40105,7 +40449,8 @@
         "level": 44,
         "move": "energy-ball"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cradily": {
     "id": 346,
@@ -40195,7 +40540,8 @@
         "level": 48,
         "move": "energy-ball"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "anorith": {
     "id": 347,
@@ -40316,7 +40662,8 @@
         "level": 44,
         "move": "x-scissor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "armaldo": {
     "id": 348,
@@ -40394,7 +40741,8 @@
         "level": 48,
         "move": "x-scissor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "feebas": {
     "id": 349,
@@ -40552,7 +40900,8 @@
         "level": 25,
         "move": "flail"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "milotic": {
     "id": 350,
@@ -40654,7 +41003,8 @@
         "level": 52,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "castform": {
     "id": 351,
@@ -40730,7 +41080,8 @@
         "level": 45,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kecleon": {
     "id": 352,
@@ -40831,7 +41182,8 @@
         "level": 50,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "shuppet": {
     "id": 353,
@@ -40952,7 +41304,8 @@
         "level": 48,
         "move": "phantom-force"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "banette": {
     "id": 354,
@@ -41030,7 +41383,8 @@
         "level": 53,
         "move": "phantom-force"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "duskull": {
     "id": 355,
@@ -41150,7 +41504,8 @@
         "level": 44,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "dusclops": {
     "id": 356,
@@ -41297,7 +41652,8 @@
         "level": 48,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "tropius": {
     "id": 357,
@@ -41384,7 +41740,8 @@
         "level": 56,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "chimecho": {
     "id": 358,
@@ -41464,7 +41821,8 @@
         "level": 47,
         "move": "heal-pulse"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "absol": {
     "id": 359,
@@ -41542,7 +41900,8 @@
         "level": 55,
         "move": "perish-song"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "wynaut": {
     "id": 360,
@@ -41642,7 +42001,8 @@
         "level": 1,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 125
   },
   "snorunt": {
     "id": 361,
@@ -41816,7 +42176,8 @@
         "level": 60,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "glalie": {
     "id": 362,
@@ -41910,7 +42271,8 @@
         "level": 68,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "spheal": {
     "id": 363,
@@ -42040,7 +42402,8 @@
         "level": 52,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "sealeo": {
     "id": 364,
@@ -42174,7 +42537,8 @@
         "level": 64,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "walrein": {
     "id": 365,
@@ -42273,7 +42637,8 @@
         "level": 72,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "clamperl": {
     "id": 366,
@@ -42405,7 +42770,8 @@
         "level": 50,
         "move": "shell-smash"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "huntail": {
     "id": 367,
@@ -42502,7 +42868,8 @@
         "level": 50,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "gorebyss": {
     "id": 368,
@@ -42599,7 +42966,8 @@
         "level": 50,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "relicanth": {
     "id": 369,
@@ -42678,7 +43046,8 @@
         "level": 55,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "luvdisc": {
     "id": 370,
@@ -42767,7 +43136,8 @@
         "level": 49,
         "move": "safeguard"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "bagon": {
     "id": 371,
@@ -42887,7 +43257,8 @@
         "level": 55,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "shelgon": {
     "id": 372,
@@ -43011,7 +43382,8 @@
         "level": 67,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "salamence": {
     "id": 373,
@@ -43105,7 +43477,8 @@
         "level": 73,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "beldum": {
     "id": 374,
@@ -43178,7 +43551,8 @@
         "level": 1,
         "move": "tackle"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "metang": {
     "id": 375,
@@ -43307,7 +43681,8 @@
         "level": 74,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "metagross": {
     "id": 376,
@@ -43393,7 +43768,8 @@
         "level": 82,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "regirock": {
     "id": 377,
@@ -43478,7 +43854,8 @@
         "level": 78,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "regice": {
     "id": 378,
@@ -43563,7 +43940,8 @@
         "level": 78,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "registeel": {
     "id": 379,
@@ -43656,7 +44034,8 @@
         "level": 78,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "latias": {
     "id": 380,
@@ -43745,7 +44124,8 @@
         "level": 70,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "latios": {
     "id": 381,
@@ -43834,7 +44214,8 @@
         "level": 70,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "kyogre": {
     "id": 382,
@@ -43914,7 +44295,8 @@
         "level": 90,
         "move": "water-spout"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "groudon": {
     "id": 383,
@@ -43994,7 +44376,8 @@
         "level": 90,
         "move": "eruption"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "rayquaza": {
     "id": 384,
@@ -44079,7 +44462,8 @@
         "level": 90,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "jirachi": {
     "id": 385,
@@ -44164,7 +44548,8 @@
         "level": 98,
         "move": "doom-desire"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "deoxys-normal": {
     "id": 386,
@@ -44244,7 +44629,8 @@
         "level": 73,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "turtwig": {
     "id": 387,
@@ -44360,7 +44746,8 @@
         "level": 45,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "grotle": {
     "id": 388,
@@ -44476,7 +44863,8 @@
         "level": 52,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "torterra": {
     "id": 389,
@@ -44562,7 +44950,8 @@
         "level": 63,
         "move": "headlong-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "chimchar": {
     "id": 390,
@@ -44682,7 +45071,8 @@
         "level": 47,
         "move": "flamethrower"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "monferno": {
     "id": 391,
@@ -44807,7 +45197,8 @@
         "level": 56,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "infernape": {
     "id": 392,
@@ -44889,7 +45280,8 @@
         "level": 65,
         "move": "raging-fury"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "piplup": {
     "id": 393,
@@ -45009,7 +45401,8 @@
         "level": 43,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "prinplup": {
     "id": 394,
@@ -45129,7 +45522,8 @@
         "level": 50,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "empoleon": {
     "id": 395,
@@ -45219,7 +45613,8 @@
         "level": 66,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "starly": {
     "id": 396,
@@ -45336,7 +45731,8 @@
         "level": 41,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "staravia": {
     "id": 397,
@@ -45453,7 +45849,8 @@
         "level": 48,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "staraptor": {
     "id": 398,
@@ -45531,7 +45928,8 @@
         "level": 57,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bidoof": {
     "id": 399,
@@ -45656,7 +46054,8 @@
         "level": 49,
         "move": "curse"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "bibarel": {
     "id": 400,
@@ -45747,7 +46146,8 @@
         "level": 58,
         "move": "curse"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "kricketot": {
     "id": 401,
@@ -45831,7 +46231,8 @@
         "level": 16,
         "move": "bug-bite"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "kricketune": {
     "id": 402,
@@ -45916,7 +46317,8 @@
         "level": 50,
         "move": "perish-song"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "shinx": {
     "id": 403,
@@ -46041,7 +46443,8 @@
         "level": 48,
         "move": "wild-charge"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "luxio": {
     "id": 404,
@@ -46166,7 +46569,8 @@
         "level": 68,
         "move": "wild-charge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "luxray": {
     "id": 405,
@@ -46252,7 +46656,8 @@
         "level": 80,
         "move": "wild-charge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "budew": {
     "id": 406,
@@ -46338,7 +46743,8 @@
         "level": 1,
         "move": "worry-seed"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "roserade": {
     "id": 407,
@@ -46441,7 +46847,8 @@
         "level": 1,
         "move": "venom-drench"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "cranidos": {
     "id": 408,
@@ -46557,7 +46964,8 @@
         "level": 46,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "rampardos": {
     "id": 409,
@@ -46634,7 +47042,8 @@
         "level": 58,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "shieldon": {
     "id": 410,
@@ -46751,7 +47160,8 @@
         "level": 46,
         "move": "heavy-slam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bastiodon": {
     "id": 411,
@@ -46829,7 +47239,8 @@
         "level": 58,
         "move": "heavy-slam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "burmy": {
     "id": 412,
@@ -46955,7 +47366,8 @@
         "level": 20,
         "move": "string-shot"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "wormadam-plant": {
     "id": 413,
@@ -47045,7 +47457,8 @@
         "level": 50,
         "move": "bug-buzz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "mothim": {
     "id": 414,
@@ -47131,7 +47544,8 @@
         "level": 50,
         "move": "bug-buzz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "combee": {
     "id": 415,
@@ -47216,7 +47630,8 @@
         "level": 1,
         "move": "struggle-bug"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "vespiquen": {
     "id": 416,
@@ -47318,7 +47733,8 @@
         "level": 44,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pachirisu": {
     "id": 417,
@@ -47404,7 +47820,8 @@
         "level": 49,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "buizel": {
     "id": 418,
@@ -47532,7 +47949,8 @@
         "level": 49,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "floatzel": {
     "id": 419,
@@ -47621,7 +48039,8 @@
         "level": 62,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "cherubi": {
     "id": 420,
@@ -47732,7 +48151,8 @@
         "level": 45,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "cherrim": {
     "id": 421,
@@ -47812,7 +48232,8 @@
         "level": 62,
         "move": "petal-dance"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "shellos": {
     "id": 422,
@@ -47925,7 +48346,8 @@
         "level": 45,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "gastrodon": {
     "id": 423,
@@ -47996,7 +48418,8 @@
         "level": 53,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "ambipom": {
     "id": 424,
@@ -48078,7 +48501,8 @@
         "level": 43,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "drifloon": {
     "id": 425,
@@ -48208,7 +48632,8 @@
         "level": 44,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 125
   },
   "drifblim": {
     "id": 426,
@@ -48303,7 +48728,8 @@
         "level": 54,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "buneary": {
     "id": 427,
@@ -48432,7 +48858,8 @@
         "level": 52,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lopunny": {
     "id": 428,
@@ -48530,7 +48957,8 @@
         "level": 56,
         "move": "high-jump-kick"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "mismagius": {
     "id": 429,
@@ -48582,7 +49010,8 @@
         "level": 1,
         "move": "mystical-fire"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "honchkrow": {
     "id": 430,
@@ -48653,7 +49082,8 @@
         "level": 65,
         "move": "comeuppance"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "glameow": {
     "id": 431,
@@ -48778,7 +49208,8 @@
         "level": 50,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "purugly": {
     "id": 432,
@@ -48868,7 +49299,8 @@
         "level": 60,
         "move": "hone-claws"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "chingling": {
     "id": 433,
@@ -48967,7 +49399,8 @@
         "level": 32,
         "move": "uproar"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "stunky": {
     "id": 434,
@@ -49101,7 +49534,8 @@
         "level": 42,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "skuntank": {
     "id": 435,
@@ -49192,7 +49626,8 @@
         "level": 48,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "bronzor": {
     "id": 436,
@@ -49314,7 +49749,8 @@
         "level": 44,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "bronzong": {
     "id": 437,
@@ -49409,7 +49845,8 @@
         "level": 56,
         "move": "rain-dance"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "bonsly": {
     "id": 438,
@@ -49533,7 +49970,8 @@
         "level": 44,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "mime-jr": {
     "id": 439,
@@ -49720,7 +50158,8 @@
         "level": 52,
         "move": "teeter-dance"
       }
-    ]
+    ],
+    "catchRate": 145
   },
   "happiny": {
     "id": 440,
@@ -49820,7 +50259,8 @@
         "level": 20,
         "move": "charm"
       }
-    ]
+    ],
+    "catchRate": 130
   },
   "chatot": {
     "id": 441,
@@ -49907,7 +50347,8 @@
         "level": 50,
         "move": "feather-dance"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "spiritomb": {
     "id": 442,
@@ -49989,7 +50430,8 @@
         "level": 60,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "gible": {
     "id": 443,
@@ -50106,7 +50548,8 @@
         "level": 60,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "gabite": {
     "id": 444,
@@ -50223,7 +50666,8 @@
         "level": 74,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "garchomp": {
     "id": 445,
@@ -50301,7 +50745,8 @@
         "level": 82,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "munchlax": {
     "id": 446,
@@ -50434,7 +50879,8 @@
         "level": 52,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "riolu": {
     "id": 447,
@@ -50567,7 +51013,8 @@
         "level": 56,
         "move": "reversal"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "lucario": {
     "id": 448,
@@ -50698,7 +51145,8 @@
         "level": 60,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "hippopotas": {
     "id": 449,
@@ -50826,7 +51274,8 @@
         "level": 52,
         "move": "slack-off"
       }
-    ]
+    ],
+    "catchRate": 140
   },
   "hippowdon": {
     "id": 450,
@@ -50923,7 +51372,8 @@
         "level": 62,
         "move": "slack-off"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "skorupi": {
     "id": 451,
@@ -51065,7 +51515,8 @@
         "level": 48,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "drapion": {
     "id": 452,
@@ -51176,7 +51627,8 @@
         "level": 54,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "croagunk": {
     "id": 453,
@@ -51302,7 +51754,8 @@
         "level": 48,
         "move": "belch"
       }
-    ]
+    ],
+    "catchRate": 140
   },
   "toxicroak": {
     "id": 454,
@@ -51385,7 +51838,8 @@
         "level": 54,
         "move": "belch"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "carnivine": {
     "id": 455,
@@ -51465,7 +51919,8 @@
         "level": 50,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "finneon": {
     "id": 456,
@@ -51586,7 +52041,8 @@
         "level": 54,
         "move": "soak"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lumineon": {
     "id": 457,
@@ -51664,7 +52120,8 @@
         "level": 59,
         "move": "tailwind"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "mantyke": {
     "id": 458,
@@ -51793,7 +52250,8 @@
         "level": 48,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "snover": {
     "id": 459,
@@ -51910,7 +52368,8 @@
         "level": 50,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "abomasnow": {
     "id": 460,
@@ -51992,7 +52451,8 @@
         "level": 56,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "weavile": {
     "id": 461,
@@ -52090,7 +52550,8 @@
         "level": 66,
         "move": "dark-pulse"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "magnezone": {
     "id": 462,
@@ -52193,7 +52654,8 @@
         "level": 64,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "lickilicky": {
     "id": 463,
@@ -52267,7 +52729,8 @@
         "level": 60,
         "move": "belly-drum"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "rhyperior": {
     "id": 464,
@@ -52358,7 +52821,8 @@
         "level": 75,
         "move": "rock-wrecker"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "tangrowth": {
     "id": 465,
@@ -52452,7 +52916,8 @@
         "level": 56,
         "move": "grassy-terrain"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "electivire": {
     "id": 466,
@@ -52537,7 +53002,8 @@
         "level": 64,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "magmortar": {
     "id": 467,
@@ -52622,7 +53088,8 @@
         "level": 64,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "togekiss": {
     "id": 468,
@@ -52733,7 +53200,8 @@
         "level": 1,
         "move": "life-dew"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "yanmega": {
     "id": 469,
@@ -52820,7 +53288,8 @@
         "level": 49,
         "move": "u-turn"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "leafeon": {
     "id": 470,
@@ -52941,7 +53410,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "glaceon": {
     "id": 471,
@@ -53058,7 +53528,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "gliscor": {
     "id": 472,
@@ -53149,7 +53620,8 @@
         "level": 50,
         "move": "swords-dance"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "mamoswine": {
     "id": 473,
@@ -53240,7 +53712,8 @@
         "level": 65,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "porygon-z": {
     "id": 474,
@@ -53338,7 +53811,8 @@
         "level": 65,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "gallade": {
     "id": 475,
@@ -53497,7 +53971,8 @@
         "level": 63,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "probopass": {
     "id": 476,
@@ -53604,7 +54079,8 @@
         "level": 43,
         "move": "lock-on"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "dusknoir": {
     "id": 477,
@@ -53709,7 +54185,8 @@
         "level": 54,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "froslass": {
     "id": 478,
@@ -53819,7 +54296,8 @@
         "level": 68,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "rotom": {
     "id": 479,
@@ -53896,7 +54374,8 @@
         "level": 55,
         "move": "uproar"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "uxie": {
     "id": 480,
@@ -53976,7 +54455,8 @@
         "level": 84,
         "move": "mystical-power"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "mesprit": {
     "id": 481,
@@ -54056,7 +54536,8 @@
         "level": 84,
         "move": "mystical-power"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "azelf": {
     "id": 482,
@@ -54136,7 +54617,8 @@
         "level": 84,
         "move": "mystical-power"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "dialga": {
     "id": 483,
@@ -54214,7 +54696,8 @@
         "level": 88,
         "move": "roar-of-time"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "palkia": {
     "id": 484,
@@ -54288,7 +54771,8 @@
         "level": 88,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "heatran": {
     "id": 485,
@@ -54370,7 +54854,8 @@
         "level": 72,
         "move": "magma-storm"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "regigigas": {
     "id": 486,
@@ -54454,7 +54939,8 @@
         "level": 78,
         "move": "crush-grip"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "giratina-altered": {
     "id": 487,
@@ -54536,7 +55022,8 @@
         "level": 84,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "cresselia": {
     "id": 488,
@@ -54620,7 +55107,8 @@
         "level": 72,
         "move": "lunar-blessing"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "phione": {
     "id": 489,
@@ -54693,7 +55181,8 @@
         "level": 75,
         "move": "take-heart"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "manaphy": {
     "id": 490,
@@ -54769,7 +55258,8 @@
         "level": 76,
         "move": "take-heart"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "darkrai": {
     "id": 491,
@@ -54837,7 +55327,8 @@
         "level": 93,
         "move": "dark-pulse"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "shaymin-land": {
     "id": 492,
@@ -54909,7 +55400,8 @@
         "level": 100,
         "move": "seed-flare"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "arceus": {
     "id": 493,
@@ -54981,7 +55473,8 @@
         "level": 100,
         "move": "judgment"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "victini": {
     "id": 494,
@@ -55078,7 +55571,8 @@
         "level": 91,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "snivy": {
     "id": 495,
@@ -55202,7 +55696,8 @@
         "level": 40,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "servine": {
     "id": 496,
@@ -55326,7 +55821,8 @@
         "level": 48,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "serperior": {
     "id": 497,
@@ -55407,7 +55903,8 @@
         "level": 56,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tepig": {
     "id": 498,
@@ -55535,7 +56032,8 @@
         "level": 43,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pignite": {
     "id": 499,
@@ -55668,7 +56166,8 @@
         "level": 52,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "emboar": {
     "id": 500,
@@ -55754,7 +56253,8 @@
         "level": 62,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "oshawott": {
     "id": 501,
@@ -55882,7 +56382,8 @@
         "level": 43,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dewott": {
     "id": 502,
@@ -56053,7 +56554,8 @@
         "level": 53,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "samurott": {
     "id": 503,
@@ -56146,7 +56648,8 @@
         "level": 63,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "patrat": {
     "id": 504,
@@ -56283,7 +56786,8 @@
         "level": 41,
         "move": "slam"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "watchog": {
     "id": 505,
@@ -56389,7 +56893,8 @@
         "level": 50,
         "move": "slam"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "lillipup": {
     "id": 506,
@@ -56514,7 +57019,8 @@
         "level": 48,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "herdier": {
     "id": 507,
@@ -56639,7 +57145,8 @@
         "level": 66,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "stoutland": {
     "id": 508,
@@ -56733,7 +57240,8 @@
         "level": 78,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "purrloin": {
     "id": 509,
@@ -56850,7 +57358,8 @@
         "level": 40,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "liepard": {
     "id": 510,
@@ -56924,7 +57433,8 @@
         "level": 52,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "pansage": {
     "id": 511,
@@ -57059,7 +57569,8 @@
         "level": 43,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "simisage": {
     "id": 512,
@@ -57100,7 +57611,8 @@
         "level": 1,
         "move": "seed-bomb"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "pansear": {
     "id": 513,
@@ -57235,7 +57747,8 @@
         "level": 43,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "simisear": {
     "id": 514,
@@ -57276,7 +57789,8 @@
         "level": 1,
         "move": "flame-burst"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "panpour": {
     "id": 515,
@@ -57411,7 +57925,8 @@
         "level": 43,
         "move": "crunch"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "simipour": {
     "id": 516,
@@ -57452,7 +57967,8 @@
         "level": 1,
         "move": "scald"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "munna": {
     "id": 517,
@@ -57584,7 +58100,8 @@
         "level": 52,
         "move": "wonder-room"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "musharna": {
     "id": 518,
@@ -57674,7 +58191,8 @@
         "level": 1,
         "move": "psychic-terrain"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "pidove": {
     "id": 519,
@@ -57796,7 +58314,8 @@
         "level": 44,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "tranquill": {
     "id": 520,
@@ -57918,7 +58437,8 @@
         "level": 56,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "unfezant": {
     "id": 521,
@@ -57997,7 +58517,8 @@
         "level": 66,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "blitzle": {
     "id": 522,
@@ -58114,7 +58635,8 @@
         "level": 40,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "zebstrika": {
     "id": 523,
@@ -58188,7 +58710,8 @@
         "level": 53,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "roggenrola": {
     "id": 524,
@@ -58309,7 +58832,8 @@
         "level": 44,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "boldore": {
     "id": 525,
@@ -58434,7 +58958,8 @@
         "level": 54,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "gigalith": {
     "id": 526,
@@ -58516,7 +59041,8 @@
         "level": 54,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "woobat": {
     "id": 527,
@@ -58638,7 +59164,8 @@
         "level": 55,
         "move": "simple-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "swoobat": {
     "id": 528,
@@ -58717,7 +59244,8 @@
         "level": 55,
         "move": "simple-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "drilbur": {
     "id": 529,
@@ -58842,7 +59370,8 @@
         "level": 48,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "excadrill": {
     "id": 530,
@@ -58929,7 +59458,8 @@
         "level": 58,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "audino": {
     "id": 531,
@@ -59023,7 +59553,8 @@
         "level": 60,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "timburr": {
     "id": 532,
@@ -59148,7 +59679,8 @@
         "level": 48,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "gurdurr": {
     "id": 533,
@@ -59273,7 +59805,8 @@
         "level": 60,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "conkeldurr": {
     "id": 534,
@@ -59355,7 +59888,8 @@
         "level": 60,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tympole": {
     "id": 535,
@@ -59480,7 +60014,8 @@
         "level": 48,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "palpitoad": {
     "id": 536,
@@ -59606,7 +60141,8 @@
         "level": 60,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "seismitoad": {
     "id": 537,
@@ -59697,7 +60233,8 @@
         "level": 70,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "throh": {
     "id": 538,
@@ -59775,7 +60312,8 @@
         "level": 55,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sawk": {
     "id": 539,
@@ -59853,7 +60391,8 @@
         "level": 55,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sewaddle": {
     "id": 540,
@@ -59959,7 +60498,8 @@
         "level": 43,
         "move": "flail"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "swadloon": {
     "id": 541,
@@ -60069,7 +60609,8 @@
         "level": 43,
         "move": "flail"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "leavanny": {
     "id": 542,
@@ -60148,7 +60689,8 @@
         "level": 50,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "venipede": {
     "id": 543,
@@ -60270,7 +60812,8 @@
         "level": 44,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "whirlipede": {
     "id": 544,
@@ -60396,7 +60939,8 @@
         "level": 56,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "scolipede": {
     "id": 545,
@@ -60487,7 +61031,8 @@
         "level": 74,
         "move": "megahorn"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cottonee": {
     "id": 546,
@@ -60628,7 +61173,8 @@
         "level": 48,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "whimsicott": {
     "id": 547,
@@ -60743,7 +61289,8 @@
         "level": 1,
         "move": "moonblast"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "petilil": {
     "id": 548,
@@ -60925,7 +61472,8 @@
         "level": 42,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lilligant": {
     "id": 549,
@@ -61031,7 +61579,8 @@
         "level": 5,
         "move": "magical-leaf"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "basculin-red-striped": {
     "id": 550,
@@ -61121,7 +61670,8 @@
         "level": 56,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "sandile": {
     "id": 551,
@@ -61251,7 +61801,8 @@
         "level": 39,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "krokorok": {
     "id": 552,
@@ -61381,7 +61932,8 @@
         "level": 47,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "krookodile": {
     "id": 553,
@@ -61472,7 +62024,8 @@
         "level": 58,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "darumaka": {
     "id": 554,
@@ -61642,7 +62195,8 @@
         "level": 48,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "darmanitan-standard": {
     "id": 555,
@@ -61727,7 +62281,8 @@
         "level": 56,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "maractus": {
     "id": 556,
@@ -61833,7 +62388,8 @@
         "level": 60,
         "move": "cotton-guard"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "dwebble": {
     "id": 557,
@@ -61959,7 +62515,8 @@
         "level": 48,
         "move": "rock-wrecker"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "crustle": {
     "id": 558,
@@ -62042,7 +62599,8 @@
         "level": 56,
         "move": "rock-wrecker"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "scraggy": {
     "id": 559,
@@ -62172,7 +62730,8 @@
         "level": 52,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "scrafty": {
     "id": 560,
@@ -62259,7 +62818,8 @@
         "level": 60,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "sigilyph": {
     "id": 561,
@@ -62346,7 +62906,8 @@
         "level": 60,
         "move": "skill-swap"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "yamask": {
     "id": 562,
@@ -62522,7 +63083,8 @@
         "level": 52,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "cofagrigus": {
     "id": 563,
@@ -62618,7 +63180,8 @@
         "level": 62,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "tirtouga": {
     "id": 564,
@@ -62756,7 +63319,8 @@
         "level": 45,
         "move": "shell-smash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "carracosta": {
     "id": 565,
@@ -62851,7 +63415,8 @@
         "level": 51,
         "move": "shell-smash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "archen": {
     "id": 566,
@@ -62987,7 +63552,8 @@
         "level": 45,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "archeops": {
     "id": 567,
@@ -63080,7 +63646,8 @@
         "level": 51,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "trubbish": {
     "id": 568,
@@ -63217,7 +63784,8 @@
         "level": 42,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "garbodor": {
     "id": 569,
@@ -63319,7 +63887,8 @@
         "level": 48,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "zorua": {
     "id": 570,
@@ -63485,7 +64054,8 @@
         "level": 48,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "zoroark": {
     "id": 571,
@@ -63569,7 +64139,8 @@
         "level": 58,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "minccino": {
     "id": 572,
@@ -63697,7 +64268,8 @@
         "level": 48,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "cinccino": {
     "id": 573,
@@ -63743,7 +64315,8 @@
         "level": 1,
         "move": "bullet-seed"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "gothita": {
     "id": 574,
@@ -63868,7 +64441,8 @@
         "level": 48,
         "move": "magic-room"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "gothorita": {
     "id": 575,
@@ -63989,7 +64563,8 @@
         "level": 58,
         "move": "magic-room"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "gothitelle": {
     "id": 576,
@@ -64071,7 +64646,8 @@
         "level": 64,
         "move": "magic-room"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "solosis": {
     "id": 577,
@@ -64200,7 +64776,8 @@
         "level": 48,
         "move": "wonder-room"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "duosion": {
     "id": 578,
@@ -64329,7 +64906,8 @@
         "level": 58,
         "move": "wonder-room"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "reuniclus": {
     "id": 579,
@@ -64419,7 +64997,8 @@
         "level": 64,
         "move": "wonder-room"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "ducklett": {
     "id": 580,
@@ -64545,7 +65124,8 @@
         "level": 46,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "swanna": {
     "id": 581,
@@ -64628,7 +65208,8 @@
         "level": 55,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "vanillite": {
     "id": 582,
@@ -64753,7 +65334,8 @@
         "level": 48,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "vanillish": {
     "id": 583,
@@ -64878,7 +65460,8 @@
         "level": 56,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "vanilluxe": {
     "id": 584,
@@ -64972,7 +65555,8 @@
         "level": 60,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "deerling": {
     "id": 585,
@@ -65090,7 +65674,8 @@
         "level": 42,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "sawsbuck": {
     "id": 586,
@@ -65173,7 +65758,8 @@
         "level": 52,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "emolga": {
     "id": 587,
@@ -65251,7 +65837,8 @@
         "level": 55,
         "move": "agility"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "karrablast": {
     "id": 588,
@@ -65379,7 +65966,8 @@
         "level": 48,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "escavalier": {
     "id": 589,
@@ -65490,7 +66078,8 @@
         "level": 52,
         "move": "metal-burst"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "foongus": {
     "id": 590,
@@ -65615,7 +66204,8 @@
         "level": 48,
         "move": "spore"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "amoonguss": {
     "id": 591,
@@ -65697,7 +66287,8 @@
         "level": 54,
         "move": "spore"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "frillish-male": {
     "id": 592,
@@ -65780,7 +66371,8 @@
         "level": 48,
         "move": "water-spout"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "jellicent-male": {
     "id": 593,
@@ -65867,7 +66459,8 @@
         "level": 54,
         "move": "water-spout"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "alomomola": {
     "id": 594,
@@ -65953,7 +66546,8 @@
         "level": 55,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "joltik": {
     "id": 595,
@@ -66079,7 +66673,8 @@
         "level": 48,
         "move": "bug-buzz"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "galvantula": {
     "id": 596,
@@ -66166,7 +66761,8 @@
         "level": 56,
         "move": "bug-buzz"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "ferroseed": {
     "id": 597,
@@ -66282,7 +66878,8 @@
         "level": 50,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "ferrothorn": {
     "id": 598,
@@ -66360,7 +66957,8 @@
         "level": 56,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "klink": {
     "id": 599,
@@ -66485,7 +67083,8 @@
         "level": 48,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 130
   },
   "klang": {
     "id": 600,
@@ -66610,7 +67209,8 @@
         "level": 54,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "klinklang": {
     "id": 601,
@@ -66704,7 +67304,8 @@
         "level": 64,
         "move": "electric-terrain"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "tynamo": {
     "id": 602,
@@ -66787,7 +67388,8 @@
         "level": 1,
         "move": "charge-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "eelektrik": {
     "id": 603,
@@ -66917,7 +67519,8 @@
         "level": 74,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "eelektross": {
     "id": 604,
@@ -66981,7 +67584,8 @@
         "level": 5,
         "move": "wild-charge"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "elgyem": {
     "id": 605,
@@ -67102,7 +67706,8 @@
         "level": 60,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "beheeyem": {
     "id": 606,
@@ -67184,7 +67789,8 @@
         "level": 68,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "litwick": {
     "id": 607,
@@ -67318,7 +67924,8 @@
         "level": 56,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lampent": {
     "id": 608,
@@ -67455,7 +68062,8 @@
         "level": 64,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "chandelure": {
     "id": 609,
@@ -67546,7 +68154,8 @@
         "level": 1,
         "move": "inferno"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "axew": {
     "id": 610,
@@ -67687,7 +68296,8 @@
         "level": 48,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "fraxure": {
     "id": 611,
@@ -67828,7 +68438,8 @@
         "level": 56,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "haxorus": {
     "id": 612,
@@ -67926,7 +68537,8 @@
         "level": 60,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cubchoo": {
     "id": 613,
@@ -68059,7 +68671,8 @@
         "level": 42,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "beartic": {
     "id": 614,
@@ -68165,7 +68778,8 @@
         "level": 51,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "cryogonal": {
     "id": 615,
@@ -68265,7 +68879,8 @@
         "level": 60,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "shelmet": {
     "id": 616,
@@ -68393,7 +69008,8 @@
         "level": 48,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "accelgor": {
     "id": 617,
@@ -68507,7 +69123,8 @@
         "level": 52,
         "move": "toxic"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "stunfisk": {
     "id": 618,
@@ -68594,7 +69211,8 @@
         "level": 55,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "mienfoo": {
     "id": 619,
@@ -68719,7 +69337,8 @@
         "level": 60,
         "move": "high-jump-kick"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "mienshao": {
     "id": 620,
@@ -68805,7 +69424,8 @@
         "level": 66,
         "move": "high-jump-kick"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "druddigon": {
     "id": 621,
@@ -68883,7 +69503,8 @@
         "level": 55,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "golett": {
     "id": 622,
@@ -69017,7 +69638,8 @@
         "level": 56,
         "move": "dynamic-punch"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "golurk": {
     "id": 623,
@@ -69108,7 +69730,8 @@
         "level": 64,
         "move": "dynamic-punch"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "pawniard": {
     "id": 624,
@@ -69238,7 +69861,8 @@
         "level": 65,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "bisharp": {
     "id": 625,
@@ -69372,7 +69996,8 @@
         "level": 71,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bouffalant": {
     "id": 626,
@@ -69450,7 +70075,8 @@
         "level": 55,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "rufflet": {
     "id": 627,
@@ -69619,7 +70245,8 @@
         "level": 72,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "braviary": {
     "id": 628,
@@ -69706,7 +70333,8 @@
         "level": 72,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "vullaby": {
     "id": 629,
@@ -69832,7 +70460,8 @@
         "level": 72,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "mandibuzz": {
     "id": 630,
@@ -69927,7 +70556,8 @@
         "level": 80,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "heatmor": {
     "id": 631,
@@ -70017,7 +70647,8 @@
         "level": 60,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "durant": {
     "id": 632,
@@ -70108,7 +70739,8 @@
         "level": 56,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "deino": {
     "id": 633,
@@ -70244,7 +70876,8 @@
         "level": 60,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "zweilous": {
     "id": 634,
@@ -70384,7 +71017,8 @@
         "level": 66,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "hydreigon": {
     "id": 635,
@@ -70489,7 +71123,8 @@
         "level": 76,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "larvesta": {
     "id": 636,
@@ -70610,7 +71245,8 @@
         "level": 66,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "volcarona": {
     "id": 637,
@@ -70724,7 +71360,8 @@
         "level": 78,
         "move": "rage-powder"
       }
-    ]
+    ],
+    "catchRate": 15
   },
   "cobalion": {
     "id": 638,
@@ -70805,7 +71442,8 @@
         "level": 70,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "terrakion": {
     "id": 639,
@@ -70886,7 +71524,8 @@
         "level": 70,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "virizion": {
     "id": 640,
@@ -70967,7 +71606,8 @@
         "level": 70,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "tornadus-incarnate": {
     "id": 641,
@@ -71060,7 +71700,8 @@
         "level": 77,
         "move": "bleakwind-storm"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "thundurus-incarnate": {
     "id": 642,
@@ -71154,7 +71795,8 @@
         "level": 75,
         "move": "wildbolt-storm"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "reshiram": {
     "id": 643,
@@ -71239,7 +71881,8 @@
         "level": 88,
         "move": "blue-flare"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "zekrom": {
     "id": 644,
@@ -71324,7 +71967,8 @@
         "level": 88,
         "move": "bolt-strike"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "landorus-incarnate": {
     "id": 645,
@@ -71418,7 +72062,8 @@
         "level": 80,
         "move": "sandsear-storm"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "kyurem": {
     "id": 646,
@@ -71503,7 +72148,8 @@
         "level": 88,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "keldeo-ordinary": {
     "id": 647,
@@ -71588,7 +72234,8 @@
         "level": 70,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "meloetta-aria": {
     "id": 648,
@@ -71673,7 +72320,8 @@
         "level": 85,
         "move": "perish-song"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "genesect": {
     "id": 649,
@@ -71758,7 +72406,8 @@
         "level": 91,
         "move": "self-destruct"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "chespin": {
     "id": 650,
@@ -71874,7 +72523,8 @@
         "level": 48,
         "move": "wood-hammer"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "quilladin": {
     "id": 651,
@@ -71994,7 +72644,8 @@
         "level": 53,
         "move": "wood-hammer"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "chesnaught": {
     "id": 652,
@@ -72092,7 +72743,8 @@
         "level": 78,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "fennekin": {
     "id": 653,
@@ -72216,7 +72868,8 @@
         "level": 48,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "braixen": {
     "id": 654,
@@ -72344,7 +72997,8 @@
         "level": 59,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "delphox": {
     "id": 655,
@@ -72450,7 +73104,8 @@
         "level": 74,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "froakie": {
     "id": 656,
@@ -72574,7 +73229,8 @@
         "level": 48,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "frogadier": {
     "id": 657,
@@ -72698,7 +73354,8 @@
         "level": 56,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "greninja": {
     "id": 658,
@@ -72796,7 +73453,8 @@
         "level": 68,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bunnelby": {
     "id": 659,
@@ -72925,7 +73583,8 @@
         "level": 39,
         "move": "super-fang"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "diggersby": {
     "id": 660,
@@ -73016,7 +73675,8 @@
         "level": 58,
         "move": "hammer-arm"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "fletchling": {
     "id": 661,
@@ -73133,7 +73793,8 @@
         "level": 50,
         "move": "fly"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "fletchinder": {
     "id": 662,
@@ -73258,7 +73919,8 @@
         "level": 64,
         "move": "fly"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "talonflame": {
     "id": 663,
@@ -73348,7 +74010,8 @@
         "level": 83,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "scatterbug": {
     "id": 664,
@@ -73433,7 +74096,8 @@
         "level": 15,
         "move": "bug-bite"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "spewpa": {
     "id": 665,
@@ -73509,7 +74173,8 @@
         "level": 1,
         "move": "harden"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "vivillon": {
     "id": 666,
@@ -73588,7 +74253,8 @@
         "level": 50,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "litleo": {
     "id": 667,
@@ -73718,7 +74384,8 @@
         "level": 50,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 220
   },
   "pyroar-male": {
     "id": 668,
@@ -73809,7 +74476,8 @@
         "level": 57,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 65
   },
   "flabebe": {
     "id": 669,
@@ -73933,7 +74601,8 @@
         "level": 48,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "floette": {
     "id": 670,
@@ -74060,7 +74729,8 @@
         "level": 58,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "florges": {
     "id": 671,
@@ -74133,7 +74803,8 @@
         "level": 5,
         "move": "moonblast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "skiddo": {
     "id": 672,
@@ -74261,7 +74932,8 @@
         "level": 45,
         "move": "leaf-blade"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "gogoat": {
     "id": 673,
@@ -74358,7 +75030,8 @@
         "level": 58,
         "move": "milk-drink"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pancham": {
     "id": 674,
@@ -74482,7 +75155,8 @@
         "level": 44,
         "move": "entrainment"
       }
-    ]
+    ],
+    "catchRate": 220
   },
   "pangoro": {
     "id": 675,
@@ -74573,7 +75247,8 @@
         "level": 58,
         "move": "hammer-arm"
       }
-    ]
+    ],
+    "catchRate": 65
   },
   "furfrou": {
     "id": 676,
@@ -74649,7 +75324,8 @@
         "level": 48,
         "move": "cotton-guard"
       }
-    ]
+    ],
+    "catchRate": 160
   },
   "espurr": {
     "id": 677,
@@ -74758,7 +75434,8 @@
         "level": 33,
         "move": "psyshock"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "meowstic-male": {
     "id": 678,
@@ -74860,7 +75537,8 @@
         "level": 59,
         "move": "misty-terrain"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "honedge": {
     "id": 679,
@@ -74984,7 +75662,8 @@
         "level": 48,
         "move": "sacred-sword"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "doublade": {
     "id": 680,
@@ -75111,7 +75790,8 @@
         "level": 56,
         "move": "sacred-sword"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "aegislash-shield": {
     "id": 681,
@@ -75200,7 +75880,8 @@
         "level": 1,
         "move": "sacred-sword"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "spritzee": {
     "id": 682,
@@ -75327,7 +76008,8 @@
         "level": 39,
         "move": "skill-swap"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "aromatisse": {
     "id": 683,
@@ -75424,7 +76106,8 @@
         "level": 42,
         "move": "psych-up"
       }
-    ]
+    ],
+    "catchRate": 140
   },
   "swirlix": {
     "id": 684,
@@ -75555,7 +76238,8 @@
         "level": 39,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "slurpuff": {
     "id": 685,
@@ -75644,7 +76328,8 @@
         "level": 42,
         "move": "sticky-web"
       }
-    ]
+    ],
+    "catchRate": 140
   },
   "inkay": {
     "id": 686,
@@ -75774,7 +76459,8 @@
         "level": 39,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "malamar": {
     "id": 687,
@@ -75865,7 +76551,8 @@
         "level": 47,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 80
   },
   "binacle": {
     "id": 688,
@@ -75987,7 +76674,8 @@
         "level": 44,
         "move": "cross-chop"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "barbaracle": {
     "id": 689,
@@ -76074,7 +76762,8 @@
         "level": 54,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "skrelp": {
     "id": 690,
@@ -76196,7 +76885,8 @@
         "level": 55,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "dragalge": {
     "id": 691,
@@ -76279,7 +76969,8 @@
         "level": 66,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 55
   },
   "clauncher": {
     "id": 692,
@@ -76394,7 +77085,8 @@
         "level": 55,
         "move": "crabhammer"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "clawitzer": {
     "id": 693,
@@ -76478,7 +77170,8 @@
         "level": 63,
         "move": "crabhammer"
       }
-    ]
+    ],
+    "catchRate": 55
   },
   "helioptile": {
     "id": 694,
@@ -76603,7 +77296,8 @@
         "level": 44,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "heliolisk": {
     "id": 695,
@@ -76690,7 +77384,8 @@
         "level": 1,
         "move": "eerie-impulse"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "tyrunt": {
     "id": 696,
@@ -76815,7 +77510,8 @@
         "level": 48,
         "move": "horn-drill"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tyrantrum": {
     "id": 697,
@@ -76905,7 +77601,8 @@
         "level": 66,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "amaura": {
     "id": 698,
@@ -77038,7 +77735,8 @@
         "level": 56,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "aurorus": {
     "id": 699,
@@ -77128,7 +77826,8 @@
         "level": 66,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sylveon": {
     "id": 700,
@@ -77245,7 +77944,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "hawlucha": {
     "id": 701,
@@ -77336,7 +78036,8 @@
         "level": 56,
         "move": "sky-attack"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "dedenne": {
     "id": 702,
@@ -77423,7 +78124,8 @@
         "level": 60,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "carbink": {
     "id": 703,
@@ -77505,7 +78207,8 @@
         "level": 60,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "goomy": {
     "id": 704,
@@ -77665,7 +78368,8 @@
         "level": 50,
         "move": "muddy-water"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sliggoo": {
     "id": 705,
@@ -77833,7 +78537,8 @@
         "level": 56,
         "move": "muddy-water"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "goodra": {
     "id": 706,
@@ -77927,7 +78632,8 @@
         "level": 67,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "klefki": {
     "id": 707,
@@ -78009,7 +78715,8 @@
         "level": 52,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "phantump": {
     "id": 708,
@@ -78139,7 +78846,8 @@
         "level": 52,
         "move": "forests-curse"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "trevenant": {
     "id": 709,
@@ -78230,7 +78938,8 @@
         "level": 52,
         "move": "forests-curse"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "pumpkaboo-average": {
     "id": 710,
@@ -78309,7 +79018,8 @@
         "level": 44,
         "move": "pain-split"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "gourgeist-average": {
     "id": 711,
@@ -78400,7 +79110,8 @@
         "level": 48,
         "move": "phantom-force"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "bergmite": {
     "id": 712,
@@ -78576,7 +79287,8 @@
         "level": 42,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "avalugg": {
     "id": 713,
@@ -78678,7 +79390,8 @@
         "level": 51,
         "move": "icicle-crash"
       }
-    ]
+    ],
+    "catchRate": 55
   },
   "noibat": {
     "id": 714,
@@ -78808,7 +79521,8 @@
         "level": 52,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "noivern": {
     "id": 715,
@@ -78907,7 +79621,8 @@
         "level": 62,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "xerneas": {
     "id": 716,
@@ -79007,7 +79722,8 @@
         "level": 85,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "yveltal": {
     "id": 717,
@@ -79108,7 +79824,8 @@
         "level": 85,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "zygarde-50": {
     "id": 718,
@@ -79205,7 +79922,8 @@
         "level": 88,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "diancie": {
     "id": 719,
@@ -79290,7 +80008,8 @@
         "level": 84,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "hoopa": {
     "id": 720,
@@ -79387,7 +80106,8 @@
         "level": 85,
         "move": "hyperspace-hole"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "volcanion": {
     "id": 721,
@@ -79484,7 +80204,8 @@
         "level": 90,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "rowlet": {
     "id": 722,
@@ -79609,7 +80330,8 @@
         "level": 36,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dartrix": {
     "id": 723,
@@ -79777,7 +80499,8 @@
         "level": 50,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "decidueye": {
     "id": 724,
@@ -79879,7 +80602,8 @@
         "level": 58,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "litten": {
     "id": 725,
@@ -80003,7 +80727,8 @@
         "level": 36,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "torracat": {
     "id": 726,
@@ -80127,7 +80852,8 @@
         "level": 50,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "incineroar": {
     "id": 727,
@@ -80213,7 +80939,8 @@
         "level": 58,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "popplio": {
     "id": 728,
@@ -80337,7 +81064,8 @@
         "level": 36,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "brionne": {
     "id": 729,
@@ -80461,7 +81189,8 @@
         "level": 50,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "primarina": {
     "id": 730,
@@ -80547,7 +81276,8 @@
         "level": 58,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pikipek": {
     "id": 731,
@@ -80669,7 +81399,8 @@
         "level": 37,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "trumbeak": {
     "id": 732,
@@ -80791,7 +81522,8 @@
         "level": 45,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "toucannon": {
     "id": 733,
@@ -80878,7 +81610,8 @@
         "level": 50,
         "move": "hyper-voice"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "yungoos": {
     "id": 734,
@@ -81003,7 +81736,8 @@
         "level": 43,
         "move": "rest"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "gumshoos": {
     "id": 735,
@@ -81085,7 +81819,8 @@
         "level": 52,
         "move": "rest"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "grubbin": {
     "id": 736,
@@ -81192,7 +81927,8 @@
         "level": 40,
         "move": "dig"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "charjabug": {
     "id": 737,
@@ -81395,7 +82131,8 @@
         "level": 64,
         "move": "discharge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "vikavolt": {
     "id": 738,
@@ -81472,7 +82209,8 @@
         "level": 64,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "crabrawler": {
     "id": 739,
@@ -81632,7 +82370,8 @@
         "level": 49,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 225
   },
   "crabominable": {
     "id": 740,
@@ -81711,7 +82450,8 @@
         "level": 49,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "oricorio-baile": {
     "id": 741,
@@ -81796,7 +82536,8 @@
         "level": 47,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cutiefly": {
     "id": 742,
@@ -81910,7 +82651,8 @@
         "level": 54,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "ribombee": {
     "id": 743,
@@ -81985,7 +82727,8 @@
         "level": 64,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "rockruff": {
     "id": 744,
@@ -82193,7 +82936,8 @@
         "level": 48,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lycanroc-midday": {
     "id": 745,
@@ -82291,7 +83035,8 @@
         "level": 60,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "wishiwashi-solo": {
     "id": 746,
@@ -82371,7 +83116,8 @@
         "level": 48,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "mareanie": {
     "id": 747,
@@ -82489,7 +83235,8 @@
         "level": 50,
         "move": "toxic"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "toxapex": {
     "id": 748,
@@ -82568,7 +83315,8 @@
         "level": 56,
         "move": "toxic"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "mudbray": {
     "id": 749,
@@ -82689,7 +83437,8 @@
         "level": 44,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "mudsdale": {
     "id": 750,
@@ -82767,7 +83516,8 @@
         "level": 52,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "dewpider": {
     "id": 751,
@@ -82892,7 +83642,8 @@
         "level": 48,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "araquanid": {
     "id": 752,
@@ -82978,7 +83729,8 @@
         "level": 62,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "fomantis": {
     "id": 753,
@@ -83094,7 +83846,8 @@
         "level": 50,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lurantis": {
     "id": 754,
@@ -83179,7 +83932,8 @@
         "level": 63,
         "move": "solar-blade"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "morelull": {
     "id": 755,
@@ -83301,7 +84055,8 @@
         "level": 44,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "shiinotic": {
     "id": 756,
@@ -83380,7 +84135,8 @@
         "level": 56,
         "move": "dream-eater"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "salandit": {
     "id": 757,
@@ -83501,7 +84257,8 @@
         "level": 55,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "salazzle": {
     "id": 758,
@@ -83607,7 +84364,8 @@
         "level": 58,
         "move": "toxic"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "stufful": {
     "id": 759,
@@ -83733,7 +84491,8 @@
         "level": 48,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 140
   },
   "bewear": {
     "id": 760,
@@ -83820,7 +84579,8 @@
         "level": 60,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 70
   },
   "bounsweet": {
     "id": 761,
@@ -83925,7 +84685,8 @@
         "level": 32,
         "move": "aromatic-mist"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "steenee": {
     "id": 762,
@@ -84041,7 +84802,8 @@
         "level": 46,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "tsareena": {
     "id": 763,
@@ -84127,7 +84889,8 @@
         "level": 58,
         "move": "high-jump-kick"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "comfey": {
     "id": 764,
@@ -84225,7 +84988,8 @@
         "level": 48,
         "move": "grassy-terrain"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "oranguru": {
     "id": 765,
@@ -84308,7 +85072,8 @@
         "level": 60,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "passimian": {
     "id": 766,
@@ -84389,7 +85154,8 @@
         "level": 60,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "wimpod": {
     "id": 767,
@@ -84469,7 +85235,8 @@
         "level": 1,
         "move": "struggle-bug"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "golisopod": {
     "id": 768,
@@ -84558,7 +85325,8 @@
         "level": 44,
         "move": "liquidation"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sandygast": {
     "id": 769,
@@ -84683,7 +85451,8 @@
         "level": 60,
         "move": "sandstorm"
       }
-    ]
+    ],
+    "catchRate": 140
   },
   "palossand": {
     "id": 770,
@@ -84765,7 +85534,8 @@
         "level": 68,
         "move": "sandstorm"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "pyukumuku": {
     "id": 771,
@@ -84846,7 +85616,8 @@
         "level": 60,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "type-null": {
     "id": 772,
@@ -84965,7 +85736,8 @@
         "level": 55,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "silvally": {
     "id": 773,
@@ -85077,7 +85849,8 @@
         "level": 60,
         "move": "parting-shot"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "minior-red-meteor": {
     "id": 774,
@@ -85162,7 +85935,8 @@
         "level": 50,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "komala": {
     "id": 775,
@@ -85238,7 +86012,8 @@
         "level": 46,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "turtonator": {
     "id": 776,
@@ -85323,7 +86098,8 @@
         "level": 52,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 70
   },
   "togedemaru": {
     "id": 777,
@@ -85406,7 +86182,8 @@
         "level": 60,
         "move": "spiky-shield"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "mimikyu-disguised": {
     "id": 778,
@@ -85491,7 +86268,8 @@
         "level": 60,
         "move": "pain-split"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "bruxish": {
     "id": 779,
@@ -85566,7 +86344,8 @@
         "level": 44,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 80
   },
   "drampa": {
     "id": 780,
@@ -85645,7 +86424,8 @@
         "level": 55,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 70
   },
   "dhelmise": {
     "id": 781,
@@ -85742,7 +86522,8 @@
         "level": 64,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "jangmo-o": {
     "id": 782,
@@ -85863,7 +86644,8 @@
         "level": 44,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "hakamo-o": {
     "id": 783,
@@ -85989,7 +86771,8 @@
         "level": 56,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kommo-o": {
     "id": 784,
@@ -86084,7 +86867,8 @@
         "level": 76,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tapu-koko": {
     "id": 785,
@@ -86178,7 +86962,8 @@
         "level": 75,
         "move": "electric-terrain"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "tapu-lele": {
     "id": 786,
@@ -86272,7 +87057,8 @@
         "level": 75,
         "move": "psychic-terrain"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "tapu-bulu": {
     "id": 787,
@@ -86366,7 +87152,8 @@
         "level": 75,
         "move": "grassy-terrain"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "tapu-fini": {
     "id": 788,
@@ -86464,7 +87251,8 @@
         "level": 75,
         "move": "misty-terrain"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "cosmog": {
     "id": 789,
@@ -86539,7 +87327,8 @@
         "level": 1,
         "move": "splash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cosmoem": {
     "id": 790,
@@ -86656,7 +87445,8 @@
         "level": 1,
         "move": "teleport"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "solgaleo": {
     "id": 791,
@@ -86749,7 +87539,8 @@
         "level": 84,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "lunala": {
     "id": 792,
@@ -86838,7 +87629,8 @@
         "level": 77,
         "move": "wide-guard"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "nihilego": {
     "id": 793,
@@ -86931,7 +87723,8 @@
         "level": 70,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "buzzwole": {
     "id": 794,
@@ -87020,7 +87813,8 @@
         "level": 70,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pheromosa": {
     "id": 795,
@@ -87109,7 +87903,8 @@
         "level": 70,
         "move": "high-jump-kick"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "xurkitree": {
     "id": 796,
@@ -87197,7 +87992,8 @@
         "level": 70,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "celesteela": {
     "id": 797,
@@ -87286,7 +88082,8 @@
         "level": 70,
         "move": "skull-bash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kartana": {
     "id": 798,
@@ -87375,7 +88172,8 @@
         "level": 70,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "guzzlord": {
     "id": 799,
@@ -87468,7 +88266,8 @@
         "level": 70,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "necrozma": {
     "id": 800,
@@ -87556,7 +88355,8 @@
         "level": 88,
         "move": "prismatic-laser"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "magearna": {
     "id": 801,
@@ -87649,7 +88449,8 @@
         "level": 90,
         "move": "fleur-cannon"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "marshadow": {
     "id": 802,
@@ -87746,7 +88547,8 @@
         "level": 99,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "poipole": {
     "id": 803,
@@ -87872,7 +88674,8 @@
         "level": 63,
         "move": "toxic"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "naganadel": {
     "id": 804,
@@ -87965,7 +88768,8 @@
         "level": 70,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "stakataka": {
     "id": 805,
@@ -88054,7 +88858,8 @@
         "level": 70,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "blacephalon": {
     "id": 806,
@@ -88143,7 +88948,8 @@
         "level": 70,
         "move": "mind-blown"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "zeraora": {
     "id": 807,
@@ -88239,7 +89045,8 @@
         "level": 96,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "meltan": {
     "id": 808,
@@ -88291,7 +89098,8 @@
         "level": 40,
         "move": "flash-cannon"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "melmetal": {
     "id": 809,
@@ -88375,7 +89183,8 @@
         "level": 96,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "grookey": {
     "id": 810,
@@ -88487,7 +89296,8 @@
         "level": 36,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "thwackey": {
     "id": 811,
@@ -88603,7 +89413,8 @@
         "level": 48,
         "move": "endeavor"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "rillaboom": {
     "id": 812,
@@ -88692,7 +89503,8 @@
         "level": 62,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "scorbunny": {
     "id": 813,
@@ -88804,7 +89616,8 @@
         "level": 36,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "raboot": {
     "id": 814,
@@ -88916,7 +89729,8 @@
         "level": 48,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "cinderace": {
     "id": 815,
@@ -88997,7 +89811,8 @@
         "level": 62,
         "move": "court-change"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sobble": {
     "id": 816,
@@ -89109,7 +89924,8 @@
         "level": 36,
         "move": "rain-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "drizzile": {
     "id": 817,
@@ -89221,7 +90037,8 @@
         "level": 48,
         "move": "rain-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "inteleon": {
     "id": 818,
@@ -89302,7 +90119,8 @@
         "level": 62,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "skwovet": {
     "id": 819,
@@ -89422,7 +90240,8 @@
         "level": 45,
         "move": "belch"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "greedent": {
     "id": 820,
@@ -89503,7 +90322,8 @@
         "level": 55,
         "move": "belch"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "rookidee": {
     "id": 821,
@@ -89616,7 +90436,8 @@
         "level": 36,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "corvisquire": {
     "id": 822,
@@ -89729,7 +90550,8 @@
         "level": 46,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "corviknight": {
     "id": 823,
@@ -89816,7 +90638,8 @@
         "level": 50,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "blipbug": {
     "id": 824,
@@ -89889,7 +90712,8 @@
         "level": 1,
         "move": "struggle-bug"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "dottler": {
     "id": 825,
@@ -89975,7 +90799,8 @@
         "level": 1,
         "move": "struggle-bug"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "orbeetle": {
     "id": 826,
@@ -90066,7 +90891,8 @@
         "level": 48,
         "move": "psychic-terrain"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "nickit": {
     "id": 827,
@@ -90179,7 +91005,8 @@
         "level": 36,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "thievul": {
     "id": 828,
@@ -90257,7 +91084,8 @@
         "level": 52,
         "move": "parting-shot"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "gossifleur": {
     "id": 829,
@@ -90370,7 +91198,8 @@
         "level": 36,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "eldegoss": {
     "id": 830,
@@ -90448,7 +91277,8 @@
         "level": 52,
         "move": "cotton-guard"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "wooloo": {
     "id": 831,
@@ -90565,7 +91395,8 @@
         "level": 40,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "dubwool": {
     "id": 832,
@@ -90643,7 +91474,8 @@
         "level": 56,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 127
   },
   "chewtle": {
     "id": 833,
@@ -90748,7 +91580,8 @@
         "level": 49,
         "move": "body-slam"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "drednaw": {
     "id": 834,
@@ -90831,7 +91664,8 @@
         "level": 66,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "yamper": {
     "id": 835,
@@ -90943,7 +91777,8 @@
         "level": 45,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "boltund": {
     "id": 836,
@@ -91020,7 +91855,8 @@
         "level": 62,
         "move": "electric-terrain"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "rolycoly": {
     "id": 837,
@@ -91129,7 +91965,8 @@
         "level": 40,
         "move": "rock-blast"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "carkol": {
     "id": 838,
@@ -91247,7 +92084,8 @@
         "level": 55,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "coalossal": {
     "id": 839,
@@ -91326,7 +92164,8 @@
         "level": 63,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "applin": {
     "id": 840,
@@ -91497,7 +92336,8 @@
         "level": 1,
         "move": "astonish"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "flapple": {
     "id": 841,
@@ -91592,7 +92432,8 @@
         "level": 44,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "appletun": {
     "id": 842,
@@ -91687,7 +92528,8 @@
         "level": 44,
         "move": "energy-ball"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "silicobra": {
     "id": 843,
@@ -91804,7 +92646,8 @@
         "level": 50,
         "move": "sand-tomb"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "sandaconda": {
     "id": 844,
@@ -91878,7 +92721,8 @@
         "level": 51,
         "move": "sand-tomb"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "cramorant": {
     "id": 845,
@@ -91951,7 +92795,8 @@
         "level": 56,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "arrokuda": {
     "id": 846,
@@ -92059,7 +92904,8 @@
         "level": 48,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "barraskewda": {
     "id": 847,
@@ -92128,7 +92974,8 @@
         "level": 56,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "toxel": {
     "id": 848,
@@ -92222,7 +93069,8 @@
         "level": 1,
         "move": "tearful-look"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "toxtricity-amped": {
     "id": 849,
@@ -92341,7 +93189,8 @@
         "level": 52,
         "move": "shift-gear"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sizzlipede": {
     "id": 850,
@@ -92463,7 +93312,8 @@
         "level": 55,
         "move": "burn-up"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "centiskorch": {
     "id": 851,
@@ -92546,7 +93396,8 @@
         "level": 67,
         "move": "burn-up"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "clobbopus": {
     "id": 852,
@@ -92661,7 +93512,8 @@
         "level": 45,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "grapploct": {
     "id": 853,
@@ -92742,7 +93594,8 @@
         "level": 50,
         "move": "topsy-turvy"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "sinistea": {
     "id": 854,
@@ -92897,7 +93750,8 @@
         "level": 60,
         "move": "shell-smash"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "polteageist": {
     "id": 855,
@@ -92982,7 +93836,8 @@
         "level": 66,
         "move": "curse"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "hatenna": {
     "id": 856,
@@ -93095,7 +93950,8 @@
         "level": 45,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 235
   },
   "hattrem": {
     "id": 857,
@@ -93212,7 +94068,8 @@
         "level": 51,
         "move": "healing-wish"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "hatterene": {
     "id": 858,
@@ -93295,7 +94152,8 @@
         "level": 64,
         "move": "magic-powder"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "impidimp": {
     "id": 859,
@@ -93417,7 +94275,8 @@
         "level": 44,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "morgrem": {
     "id": 860,
@@ -93543,7 +94402,8 @@
         "level": 52,
         "move": "foul-play"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "grimmsnarl": {
     "id": 861,
@@ -93638,7 +94498,8 @@
         "level": 64,
         "move": "hammer-arm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "obstagoon": {
     "id": 862,
@@ -93749,7 +94610,8 @@
         "level": 56,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "perrserker": {
     "id": 863,
@@ -93839,7 +94701,8 @@
         "level": 54,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "cursola": {
     "id": 864,
@@ -93920,7 +94783,8 @@
         "level": 55,
         "move": "mirror-coat"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "sirfetchd": {
     "id": 865,
@@ -94017,7 +94881,8 @@
         "level": 70,
         "move": "meteor-assault"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "mr-rime": {
     "id": 866,
@@ -94164,7 +95029,8 @@
         "level": 52,
         "move": "teeter-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "runerigus": {
     "id": 867,
@@ -94261,7 +95127,8 @@
         "level": 62,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "milcery": {
     "id": 868,
@@ -94377,7 +95244,8 @@
         "level": 50,
         "move": "entrainment"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "alcremie": {
     "id": 869,
@@ -94454,7 +95322,8 @@
         "level": 50,
         "move": "entrainment"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "falinks": {
     "id": 870,
@@ -94535,7 +95404,8 @@
         "level": 60,
         "move": "counter"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "pincurchin": {
     "id": 871,
@@ -94616,7 +95486,8 @@
         "level": 60,
         "move": "discharge"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "snom": {
     "id": 872,
@@ -94693,7 +95564,8 @@
         "level": 1,
         "move": "struggle-bug"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "frosmoth": {
     "id": 873,
@@ -94791,7 +95663,8 @@
         "level": 52,
         "move": "quiver-dance"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "stonjourner": {
     "id": 874,
@@ -94867,7 +95740,8 @@
         "level": 66,
         "move": "mega-kick"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "eiscue-ice": {
     "id": 875,
@@ -94939,7 +95813,8 @@
         "level": 60,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "indeedee-male": {
     "id": 876,
@@ -95018,7 +95893,8 @@
         "level": 55,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "morpeko-full-belly": {
     "id": 877,
@@ -95099,7 +95975,8 @@
         "level": 60,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "cufant": {
     "id": 878,
@@ -95219,7 +96096,8 @@
         "level": 55,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "copperajah": {
     "id": 879,
@@ -95300,7 +96178,8 @@
         "level": 65,
         "move": "superpower"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "dracozolt": {
     "id": 880,
@@ -95379,7 +96258,8 @@
         "level": 77,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "arctozolt": {
     "id": 881,
@@ -95458,7 +96338,8 @@
         "level": 77,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dracovish": {
     "id": 882,
@@ -95537,7 +96418,8 @@
         "level": 77,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "arctovish": {
     "id": 883,
@@ -95616,7 +96498,8 @@
         "level": 77,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "duraludon": {
     "id": 884,
@@ -95741,7 +96624,8 @@
         "level": 66,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dreepy": {
     "id": 885,
@@ -95827,7 +96711,8 @@
         "level": 1,
         "move": "infestation"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "drakloak": {
     "id": 886,
@@ -95965,7 +96850,8 @@
         "level": 72,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dragapult": {
     "id": 887,
@@ -96064,7 +96950,8 @@
         "level": 78,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "zacian": {
     "id": 888,
@@ -96144,7 +97031,8 @@
         "level": 88,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "zamazenta": {
     "id": 889,
@@ -96220,7 +97108,8 @@
         "level": 88,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "eternatus": {
     "id": 890,
@@ -96305,7 +97194,8 @@
         "level": 88,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "kubfu": {
     "id": 891,
@@ -96561,7 +97451,8 @@
         "level": 52,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "urshifu-single-strike": {
     "id": 892,
@@ -96654,7 +97545,8 @@
         "level": 52,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "zarude": {
     "id": 893,
@@ -96747,7 +97639,8 @@
         "level": 90,
         "move": "jungle-healing"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "regieleki": {
     "id": 894,
@@ -96831,7 +97724,8 @@
         "level": 78,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "regidrago": {
     "id": 895,
@@ -96907,7 +97801,8 @@
         "level": 78,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "glastrier": {
     "id": 896,
@@ -96987,7 +97882,8 @@
         "level": 72,
         "move": "swords-dance"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "spectrier": {
     "id": 897,
@@ -97067,7 +97963,8 @@
         "level": 72,
         "move": "nasty-plot"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "calyrex": {
     "id": 898,
@@ -97156,7 +98053,8 @@
         "level": 88,
         "move": "future-sight"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "wyrdeer": {
     "id": 899,
@@ -97243,7 +98141,8 @@
         "level": 62,
         "move": "megahorn"
       }
-    ]
+    ],
+    "catchRate": 135
   },
   "kleavor": {
     "id": 900,
@@ -97326,7 +98225,8 @@
         "level": 44,
         "move": "swords-dance"
       }
-    ]
+    ],
+    "catchRate": 115
   },
   "ursaluna": {
     "id": 901,
@@ -97425,7 +98325,8 @@
         "level": 64,
         "move": "hammer-arm"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "basculegion-male": {
     "id": 902,
@@ -97524,7 +98425,8 @@
         "level": 56,
         "move": "head-smash"
       }
-    ]
+    ],
+    "catchRate": 135
   },
   "sneasler": {
     "id": 903,
@@ -97611,7 +98513,8 @@
         "level": 60,
         "move": "close-combat"
       }
-    ]
+    ],
+    "catchRate": 135
   },
   "overqwil": {
     "id": 904,
@@ -97706,7 +98609,8 @@
         "level": 56,
         "move": "destiny-bond"
       }
-    ]
+    ],
+    "catchRate": 135
   },
   "enamorus-incarnate": {
     "id": 905,
@@ -97800,7 +98704,8 @@
         "level": 75,
         "move": "springtide-storm"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "sprigatito": {
     "id": 906,
@@ -97920,7 +98825,8 @@
         "level": 36,
         "move": "play-rough"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "floragato": {
     "id": 907,
@@ -98044,7 +98950,8 @@
         "level": 46,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "meowscarada": {
     "id": 908,
@@ -98142,7 +99049,8 @@
         "level": 64,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "fuecoco": {
     "id": 909,
@@ -98258,7 +99166,8 @@
         "level": 36,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "crocalor": {
     "id": 910,
@@ -98382,7 +99291,8 @@
         "level": 47,
         "move": "fire-blast"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "skeledirge": {
     "id": 911,
@@ -98480,7 +99390,8 @@
         "level": 64,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "quaxly": {
     "id": 912,
@@ -98596,7 +99507,8 @@
         "level": 35,
         "move": "liquidation"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "quaxwell": {
     "id": 913,
@@ -98724,7 +99636,8 @@
         "level": 48,
         "move": "feather-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "quaquaval": {
     "id": 914,
@@ -98826,7 +99739,8 @@
         "level": 64,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "lechonk": {
     "id": 915,
@@ -98947,7 +99861,8 @@
         "level": 35,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "oinkologne-male": {
     "id": 916,
@@ -99033,7 +99948,8 @@
         "level": 54,
         "move": "belch"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "tarountula": {
     "id": 917,
@@ -99157,7 +100073,8 @@
         "level": 44,
         "move": "skitter-smack"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "spidops": {
     "id": 918,
@@ -99242,7 +100159,8 @@
         "level": 49,
         "move": "skitter-smack"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "nymble": {
     "id": 919,
@@ -99362,7 +100280,8 @@
         "level": 41,
         "move": "first-impression"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "lokix": {
     "id": 920,
@@ -99464,7 +100383,8 @@
         "level": 53,
         "move": "axe-kick"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "pawmi": {
     "id": 921,
@@ -99593,7 +100513,8 @@
         "level": 44,
         "move": "wild-charge"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "pawmo": {
     "id": 922,
@@ -99727,7 +100648,8 @@
         "level": 52,
         "move": "wild-charge"
       }
-    ]
+    ],
+    "catchRate": 80
   },
   "pawmot": {
     "id": 923,
@@ -99830,7 +100752,8 @@
         "level": 60,
         "move": "double-shock"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "tandemaus": {
     "id": 924,
@@ -99955,7 +100878,8 @@
         "level": 46,
         "move": "population-bomb"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "maushold-family-of-four": {
     "id": 925,
@@ -100045,7 +100969,8 @@
         "level": 53,
         "move": "population-bomb"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "fidough": {
     "id": 926,
@@ -100173,7 +101098,8 @@
         "level": 45,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "dachsbun": {
     "id": 927,
@@ -100258,7 +101184,8 @@
         "level": 53,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "smoliv": {
     "id": 928,
@@ -100379,7 +101306,8 @@
         "level": 38,
         "move": "terrain-pulse"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "dolliv": {
     "id": 929,
@@ -100500,7 +101428,8 @@
         "level": 42,
         "move": "terrain-pulse"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "arboliva": {
     "id": 930,
@@ -100594,7 +101523,8 @@
         "level": 58,
         "move": "petal-dance"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "squawkabilly-green-plumage": {
     "id": 931,
@@ -100685,7 +101615,8 @@
         "level": 52,
         "move": "reversal"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "nacli": {
     "id": 932,
@@ -100810,7 +101741,8 @@
         "level": 45,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "naclstack": {
     "id": 933,
@@ -100939,7 +101871,8 @@
         "level": 51,
         "move": "stone-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "garganacl": {
     "id": 934,
@@ -101041,7 +101974,8 @@
         "level": 60,
         "move": "explosion"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "charcadet": {
     "id": 935,
@@ -101197,7 +102131,8 @@
         "level": 32,
         "move": "lava-plume"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "armarouge": {
     "id": 936,
@@ -101295,7 +102230,8 @@
         "level": 62,
         "move": "armor-cannon"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "ceruledge": {
     "id": 937,
@@ -101385,7 +102321,8 @@
         "level": 62,
         "move": "flare-blitz"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "tadbulb": {
     "id": 938,
@@ -101509,7 +102446,8 @@
         "level": 50,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "bellibolt": {
     "id": 939,
@@ -101591,7 +102529,8 @@
         "level": 50,
         "move": "zap-cannon"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "wattrel": {
     "id": 940,
@@ -101709,7 +102648,8 @@
         "level": 43,
         "move": "discharge"
       }
-    ]
+    ],
+    "catchRate": 180
   },
   "kilowattrel": {
     "id": 941,
@@ -101792,7 +102732,8 @@
         "level": 55,
         "move": "hurricane"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "maschiff": {
     "id": 942,
@@ -101921,7 +102862,8 @@
         "level": 49,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "mabosstiff": {
     "id": 943,
@@ -102015,7 +102957,8 @@
         "level": 60,
         "move": "outrage"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "shroodle": {
     "id": 944,
@@ -102145,7 +103088,8 @@
         "level": 45,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "grafaiai": {
     "id": 945,
@@ -102232,7 +103176,8 @@
         "level": 51,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "bramblin": {
     "id": 946,
@@ -102361,7 +103306,8 @@
         "level": 55,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "brambleghast": {
     "id": 947,
@@ -102447,7 +103393,8 @@
         "level": 55,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "toedscool": {
     "id": 948,
@@ -102583,7 +103530,8 @@
         "level": 52,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "toedscruel": {
     "id": 949,
@@ -102680,7 +103628,8 @@
         "level": 58,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "klawf": {
     "id": 950,
@@ -102762,7 +103711,8 @@
         "level": 56,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "capsakid": {
     "id": 951,
@@ -102882,7 +103832,8 @@
         "level": 48,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "scovillain": {
     "id": 952,
@@ -102977,7 +103928,8 @@
         "level": 48,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "rellor": {
     "id": 953,
@@ -103085,7 +104037,8 @@
         "level": 35,
         "move": "lunge"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "rabsca": {
     "id": 954,
@@ -103179,7 +104132,8 @@
         "level": 50,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "flittle": {
     "id": 955,
@@ -103288,7 +104242,8 @@
         "level": 34,
         "move": "uproar"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "espathra": {
     "id": 956,
@@ -103378,7 +104333,8 @@
         "level": 54,
         "move": "last-resort"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "tinkatink": {
     "id": 957,
@@ -103512,7 +104468,8 @@
         "level": 52,
         "move": "knock-off"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "tinkatuff": {
     "id": 958,
@@ -103646,7 +104603,8 @@
         "level": 52,
         "move": "knock-off"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "tinkaton": {
     "id": 959,
@@ -103741,7 +104699,8 @@
         "level": 52,
         "move": "knock-off"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "wiglett": {
     "id": 960,
@@ -103858,7 +104817,8 @@
         "level": 40,
         "move": "liquidation"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "wugtrio": {
     "id": 961,
@@ -103936,7 +104896,8 @@
         "level": 54,
         "move": "liquidation"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "bombirdier": {
     "id": 962,
@@ -104027,7 +104988,8 @@
         "level": 60,
         "move": "parting-shot"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "finizen": {
     "id": 963,
@@ -104146,7 +105108,8 @@
         "level": 50,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 200
   },
   "palafin-zero": {
     "id": 964,
@@ -104238,7 +105201,8 @@
         "level": 61,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "varoom": {
     "id": 965,
@@ -104367,7 +105331,8 @@
         "level": 50,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "revavroom": {
     "id": 966,
@@ -104461,7 +105426,8 @@
         "level": 58,
         "move": "gunk-shot"
       }
-    ]
+    ],
+    "catchRate": 75
   },
   "cyclizar": {
     "id": 967,
@@ -104543,7 +105509,8 @@
         "level": 57,
         "move": "dragon-rush"
       }
-    ]
+    ],
+    "catchRate": 190
   },
   "orthworm": {
     "id": 968,
@@ -104624,7 +105591,8 @@
         "level": 52,
         "move": "shed-tail"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "glimmet": {
     "id": 969,
@@ -104749,7 +105717,8 @@
         "level": 46,
         "move": "sludge-wave"
       }
-    ]
+    ],
+    "catchRate": 70
   },
   "glimmora": {
     "id": 970,
@@ -104843,7 +105812,8 @@
         "level": 50,
         "move": "sludge-wave"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "greavard": {
     "id": 971,
@@ -104971,7 +105941,8 @@
         "level": 52,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "houndstone": {
     "id": 972,
@@ -105060,7 +106031,8 @@
         "level": 58,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "flamigo": {
     "id": 973,
@@ -105147,7 +106119,8 @@
         "level": 54,
         "move": "brave-bird"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "cetoddle": {
     "id": 974,
@@ -105279,7 +106252,8 @@
         "level": 53,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 150
   },
   "cetitan": {
     "id": 975,
@@ -105365,7 +106339,8 @@
         "level": 53,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "veluza": {
     "id": 976,
@@ -105443,7 +106418,8 @@
         "level": 55,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "dondozo": {
     "id": 977,
@@ -105537,7 +106513,8 @@
         "level": 65,
         "move": "wave-crash"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "tatsugiri-curly": {
     "id": 978,
@@ -105611,7 +106588,8 @@
         "level": 52,
         "move": "dragon-pulse"
       }
-    ]
+    ],
+    "catchRate": 100
   },
   "annihilape": {
     "id": 979,
@@ -105714,7 +106692,8 @@
         "level": 57,
         "move": "final-gambit"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "clodsire": {
     "id": 980,
@@ -105793,7 +106772,8 @@
         "level": 48,
         "move": "earthquake"
       }
-    ]
+    ],
+    "catchRate": 90
   },
   "farigiraf": {
     "id": 981,
@@ -105884,7 +106864,8 @@
         "level": 50,
         "move": "psychic"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "dudunsparce-two-segment": {
     "id": 982,
@@ -105978,7 +106959,8 @@
         "level": 62,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "kingambit": {
     "id": 983,
@@ -106073,7 +107055,8 @@
         "level": 71,
         "move": "guillotine"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "great-tusk": {
     "id": 984,
@@ -106166,7 +107149,8 @@
         "level": 91,
         "move": "headlong-rush"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "scream-tail": {
     "id": 985,
@@ -106255,7 +107239,8 @@
         "level": 91,
         "move": "boomburst"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "brute-bonnet": {
     "id": 986,
@@ -106340,7 +107325,8 @@
         "level": 91,
         "move": "solar-beam"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "flutter-mane": {
     "id": 987,
@@ -106429,7 +107415,8 @@
         "level": 91,
         "move": "perish-song"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "slither-wing": {
     "id": 988,
@@ -106522,7 +107509,8 @@
         "level": 91,
         "move": "thrash"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "sandy-shocks": {
     "id": 989,
@@ -106615,7 +107603,8 @@
         "level": 91,
         "move": "magnetic-flux"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "iron-treads": {
     "id": 990,
@@ -106704,7 +107693,8 @@
         "level": 91,
         "move": "steel-roller"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "iron-bundle": {
     "id": 991,
@@ -106785,7 +107775,8 @@
         "level": 91,
         "move": "blizzard"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "iron-hands": {
     "id": 992,
@@ -106878,7 +107869,8 @@
         "level": 91,
         "move": "focus-punch"
       }
-    ]
+    ],
+    "catchRate": 50
   },
   "iron-jugulis": {
     "id": 993,
@@ -106971,7 +107963,8 @@
         "level": 91,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "iron-moth": {
     "id": 994,
@@ -107064,7 +108057,8 @@
         "level": 91,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "iron-thorns": {
     "id": 995,
@@ -107157,7 +108151,8 @@
         "level": 91,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 30
   },
   "frigibax": {
     "id": 996,
@@ -107278,7 +108273,8 @@
         "level": 48,
         "move": "icicle-crash"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "arctibax": {
     "id": 997,
@@ -107395,7 +108391,8 @@
         "level": 55,
         "move": "icicle-crash"
       }
-    ]
+    ],
+    "catchRate": 25
   },
   "baxcalibur": {
     "id": 998,
@@ -107489,7 +108486,8 @@
         "level": 62,
         "move": "icicle-crash"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "gimmighoul": {
     "id": 999,
@@ -107564,7 +108562,8 @@
         "level": 1,
         "move": "astonish"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "gholdengo": {
     "id": 1000,
@@ -107637,7 +108636,8 @@
         "level": 70,
         "move": "memento"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "wo-chien": {
     "id": 1001,
@@ -107738,7 +108738,8 @@
         "level": 75,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 6
   },
   "chien-pao": {
     "id": 1002,
@@ -107839,7 +108840,8 @@
         "level": 75,
         "move": "sheer-cold"
       }
-    ]
+    ],
+    "catchRate": 6
   },
   "ting-lu": {
     "id": 1003,
@@ -107936,7 +108938,8 @@
         "level": 75,
         "move": "fissure"
       }
-    ]
+    ],
+    "catchRate": 6
   },
   "chi-yu": {
     "id": 1004,
@@ -108033,7 +109036,8 @@
         "level": 75,
         "move": "overheat"
       }
-    ]
+    ],
+    "catchRate": 6
   },
   "roaring-moon": {
     "id": 1005,
@@ -108126,7 +109130,8 @@
         "level": 91,
         "move": "double-edge"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "iron-valiant": {
     "id": 1006,
@@ -108223,7 +109228,8 @@
         "level": 91,
         "move": "spirit-break"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "koraidon": {
     "id": 1007,
@@ -108312,7 +109318,8 @@
         "level": 98,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "miraidon": {
     "id": 1008,
@@ -108401,7 +109408,8 @@
         "level": 98,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "walking-wake": {
     "id": 1009,
@@ -108486,7 +109494,8 @@
         "level": 84,
         "move": "hydro-pump"
       }
-    ]
+    ],
+    "catchRate": 5
   },
   "iron-leaves": {
     "id": 1010,
@@ -108579,7 +109588,8 @@
         "level": 91,
         "move": "solar-blade"
       }
-    ]
+    ],
+    "catchRate": 5
   },
   "dipplin": {
     "id": 1011,
@@ -108712,7 +109722,8 @@
         "level": 44,
         "move": "substitute"
       }
-    ]
+    ],
+    "catchRate": 45
   },
   "poltchageist": {
     "id": 1012,
@@ -108876,7 +109887,8 @@
         "level": 60,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 120
   },
   "sinistcha": {
     "id": 1013,
@@ -108958,7 +109970,8 @@
         "level": 60,
         "move": "leaf-storm"
       }
-    ]
+    ],
+    "catchRate": 60
   },
   "okidogi": {
     "id": 1014,
@@ -109032,7 +110045,8 @@
         "level": 72,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "munkidori": {
     "id": 1015,
@@ -109110,7 +110124,8 @@
         "level": 72,
         "move": "parting-shot"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "fezandipiti": {
     "id": 1016,
@@ -109192,7 +110207,8 @@
         "level": 72,
         "move": "moonblast"
       }
-    ]
+    ],
+    "catchRate": 3
   },
   "ogerpon": {
     "id": 1017,
@@ -109276,7 +110292,8 @@
         "level": 66,
         "move": "wood-hammer"
       }
-    ]
+    ],
+    "catchRate": 5
   },
   "archaludon": {
     "id": 1018,
@@ -109359,7 +110376,8 @@
         "level": 66,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "hydrapple": {
     "id": 1019,
@@ -109450,7 +110468,8 @@
         "level": 54,
         "move": "power-whip"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "gouging-fire": {
     "id": 1020,
@@ -109543,7 +110562,8 @@
         "level": 91,
         "move": "raging-fury"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "raging-bolt": {
     "id": 1021,
@@ -109636,7 +110656,8 @@
         "level": 91,
         "move": "thunder"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "iron-boulder": {
     "id": 1022,
@@ -109729,7 +110750,8 @@
         "level": 91,
         "move": "giga-impact"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "iron-crown": {
     "id": 1023,
@@ -109822,7 +110844,8 @@
         "level": 91,
         "move": "hyper-beam"
       }
-    ]
+    ],
+    "catchRate": 10
   },
   "terapagos": {
     "id": 1024,
@@ -109894,7 +110917,8 @@
         "level": 90,
         "move": "gyro-ball"
       }
-    ]
+    ],
+    "catchRate": 255
   },
   "pecharunt": {
     "id": 1025,
@@ -109971,6 +110995,7 @@
         "level": 72,
         "move": "recover"
       }
-    ]
+    ],
+    "catchRate": 3
   }
 }

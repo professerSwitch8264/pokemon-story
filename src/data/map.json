@@ -227,5 +227,177 @@
             ],
             "water": []
         }
+    },
+    "beach": {
+        "id": "beach",
+        "name": "ชายหาด",
+        "url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2026/01/copainter_-beach_01.png",
+        "action": [
+            {
+                "value": "สำรวจ",
+                "pos": 1,
+                "color": "yellow"
+            },
+            {
+                "value": "ตกปลา",
+                "pos": 1,
+                "color": "yellow"
+            },
+            {
+                "value": "ออกจากที่นี่",
+                "pos": 0,
+                "color": "red"
+            }
+        ],
+        "encounters": {
+            "grass": [
+                {
+                    "species": "Wingull",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Krabby",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Sandygast",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Squirtle",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.01
+                }
+            ],
+            "water": []
+        }
+    },
+    "flower": {
+        "id": "flower",
+        "name": "ทุ่งดอกไม้",
+        "url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2026/01/copainter_flower-garden_01.png",
+        "action": [
+            {
+                "value": "สำรวจ",
+                "pos": 1,
+                "color": "yellow"
+            },
+            {
+                "value": "ตกปลา",
+                "pos": 1,
+                "color": "yellow"
+            },
+            {
+                "value": "ออกจากที่นี่",
+                "pos": 0,
+                "color": "red"
+            }
+        ],
+        "encounters": {
+            "grass": [
+                {
+                    "species": "Wingull",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Krabby",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Wattrel",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Sandygast",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Shroomish",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Slakoth",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                }
+            ],
+            "water": []
+        }
+    },
+    "cave": {
+        "id": "cave",
+        "name": "ถ้ำ",
+        "url": "https://clan.fastly.steamstatic.com/images/43220061/0377ed4a4ceab5d13f95c1d91bd41071b565e46c.jpg",
+        "action": [
+            {
+                "value": "สำรวจ",
+                "pos": 1,
+                "color": "yellow"
+            },
+            {
+                "value": "ออกจากที่นี่",
+                "pos": 0,
+                "color": "red"
+            }
+        ],
+        "encounters": {
+            "grass": [
+                {
+                    "species": "Diglett",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Zubat",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Onix",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Aron",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Shroomish",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                },
+                {
+                    "species": "Slakoth",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5
+                }
+            ],
+            "water": []
+        }
     }
 }

@@ -2,7 +2,7 @@
     {
         "id": "gym_brock",
         "name": "Brock",
-        "defaultLocation": "club",
+        "defaultLocation": "classroom",
         "schedule": [
             {
                 "start": 8,
@@ -44,11 +44,12 @@
                     "nextNode_lose": 5,
                     "enemyTeam": [
                         {
-                            "species": "geodude",
+                            "species": "Pikachu-Starter",
                             "level": 12,
                             "moves": [
-                                "tackle",
-                                "defensecurl"
+                                "Pika Papow",
+                                "Zippy Zap",
+                                "Floaty Fall"
                             ]
                         },
                         {

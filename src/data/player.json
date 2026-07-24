@@ -70,70 +70,28 @@
                 },
                 "sp": 10,
                 "max_sp": 10
-            },
-            {
-                "nickname": "Smeargle",
-                "species": "smeargle",
-                "item": "",
-                "ability": "protean",
-                "moves": [
-                    "Quick Attack",
-                    "Bulldoze",
-                    "water gun",
-                    "Rock Smash"
-                ],
-                "nature": "Naive",
-                "level": 5,
-                "next_exp": 75,
-                "evs": {
-                    "hp": 252,
-                    "atk": 252,
-                    "def": 252,
-                    "spa": 252,
-                    "spd": 252,
-                    "spe": 252
-                },
-                "ivs": {
-                    "hp": 31,
-                    "atk": 31,
-                    "def": 31,
-                    "spa": 31,
-                    "spd": 31,
-                    "spe": 31
-                }
-            },
-            {
-                "nickname": "Smeargle",
-                "species": "smeargle",
-                "item": "payapaberry",
-                "ability": "protean",
-                "moves": [
-                    "Quick Attack",
-                    "Bulldoze",
-                    "water gun",
-                    "Rock Smash"
-                ],
-                "nature": "Naive",
-                "level": 5,
-                "next_exp": 75,
-                "evs": {
-                    "hp": 252,
-                    "atk": 252,
-                    "def": 252,
-                    "spa": 252,
-                    "spd": 252,
-                    "spe": 252
-                },
-                "ivs": {
-                    "hp": 31,
-                    "atk": 31,
-                    "def": 31,
-                    "spa": 31,
-                    "spd": 31,
-                    "spe": 31
-                }
             }
             
+        ],
+        "inventory": {
+            "pokeball": [
+                { "id": "pokeball", "quantity": 10 }
+            ],
+            "berries": [
+                { "id": "oranberry", "quantity": 5 },
+                { "id": "kebiaberry", "quantity": 5 }
+            ],
+            "hold_items": [],
+            "evo_item": [],
+            "machines": []
+        },
+        "pc_boxes": [
+            [
+                null, null, null, null, null,
+                null, null, null, null, null,
+                null, null, null, null, null,
+                null, null, null, null, null
+            ]
         ]
     }
 ]
