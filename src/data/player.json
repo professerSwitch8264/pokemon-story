@@ -6,8 +6,9 @@
         "max_slots": 3,
         "current_location": "bedroom",
         "day": 1,
-        "time": 6,
+        "time": 7.500000000000001,
         "phase": 1,
+        "points": 1000,
         "team": [
             {
                 "nickname": "Smeargle",
@@ -22,7 +23,7 @@
                 ],
                 "nature": "Naive",
                 "level": 5,
-                "next_exp": 75,
+                "next_exp": 72,
                 "evs": {
                     "hp": 252,
                     "atk": 252,
@@ -38,20 +39,24 @@
                     "spa": 31,
                     "spd": 31,
                     "spe": 31
-                }
+                },
+                "exp": 0,
+                "totalExp": 100
             },
             {
-                "nickname": "Buizel",
-                "species": "buizel",
-                "item": "",
-                "ability": "swift swim",
+                "nickname": "Charmander",
+                "species": "charmander",
+                "item": "oranberry",
+                "ability": "water-veil",
                 "moves": [
                     "Quick Attack",
-                    "water gun"
+                    "water gun",
+                    "Tackle",
+                    "Growl"
                 ],
-                "nature": "Naive",
-                "level": 5,
-                "next_exp": 100,
+                "nature": "Adamant",
+                "level": 50,
+                "next_exp": 72,
                 "evs": {
                     "hp": 0,
                     "atk": 0,
@@ -69,28 +74,98 @@
                     "spe": 0
                 },
                 "sp": 10,
-                "max_sp": 10
-            }
-            
+                "max_sp": 10,
+                "exp": 0,
+                "totalExp": 100
+            },
+            null,
+            null,
+            null,
+            null
         ],
         "inventory": {
             "pokeball": [
-                { "id": "pokeball", "quantity": 10 }
+                {
+                    "id": "pokeball",
+                    "quantity": 8
+                }
             ],
             "berries": [
-                { "id": "oranberry", "quantity": 5 },
-                { "id": "kebiaberry", "quantity": 5 }
+                {
+                    "id": "oranberry",
+                    "quantity": 4
+                },
+                {
+                    "id": "kebiaberry",
+                    "quantity": 5
+                }
             ],
             "hold_items": [],
             "evo_item": [],
-            "machines": []
+            "machines": [
+                {
+                    "id": "tm-acrobatics",
+                    "name": "TM Acrobatics",
+                    "move": "acrobatics",
+                    "quantity": 1
+                }
+            ]
         },
         "pc_boxes": [
             [
-                null, null, null, null, null,
-                null, null, null, null, null,
-                null, null, null, null, null,
-                null, null, null, null, null
+                {
+                    "species": "Phanpy",
+                    "minLv": 4,
+                    "maxLv": 7,
+                    "chance": 0.5,
+                    "level": 6,
+                    "moves": [
+                        "flail",
+                        "tackle",
+                        "growl",
+                        "defense-curl"
+                    ],
+                    "ability": "pickup",
+                    "nature": "Serious",
+                    "ivs": {
+                        "hp": 13,
+                        "atk": 27,
+                        "def": 3,
+                        "spa": 24,
+                        "spd": 27,
+                        "spe": 6
+                    },
+                    "evs": {
+                        "hp": 0,
+                        "atk": 0,
+                        "def": 0,
+                        "spa": 0,
+                        "spd": 0,
+                        "spe": 0
+                    },
+                    "nickname": "Phanpy",
+                    "item": "",
+                    "next_exp": 216
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
             ]
         ]
     }

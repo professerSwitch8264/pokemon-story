@@ -1,403 +1,654 @@
 {
-    "bedroom": {
-        "id": "bedroom",
-        "name": "ห้องนอน",
-        "url": "https://i.pinimg.com/564x/72/1e/24/721e24ded6bc0fdc35a116474ca1a17e.jpg",
-        "action": [
-            {
-                "value": "นอน",
-                "pos": 1,
-                "color": "white"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ]
-    },
-    "classroom": {
-        "id": "classroom",
-        "name": "ห้องเรียน",
-        "url": "https://i.pinimg.com/736x/16/6b/e3/166be35559d55fd1423ed6a5e55f5ae6.jpg",
-        "action": [
-            {
-                "value": "เข้าร่วมคลาสเรียน",
-                "pos": 1,
-                "color": "white"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ]
-    },
-    "infirmaryroom": {
-        "id": "infirmaryroom",
-        "name": "ห้องพยาบาล",
-        "url": "https://i.pinimg.com/736x/cc/6d/62/cc6d62ec96cd8a2651452cbdaf378b62.jpg",
-        "action": [
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ]
-    },
-    "roof": {
-        "id": "roof",
-        "name": "ดาดฟ้า",
-        "url": "https://i.ytimg.com/vi/kAezItE1stY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWMnkAbkIi1hzof-b-IXwwNSBx8w",
-        "action": [
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ]
-    },
-    
-    "park": {
-        "id": "park",
-        "name": "สวนสาธารณะ",
-        "url": "https://t3.ftcdn.net/jpg/12/32/24/60/360_F_1232246072_wJcIvcJSIypiHjiJ7bv88H98XXnG6Ohn.jpg",
-        "action": [
-            {
-                "value": "สำรวจ",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ตกปลา",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ],
-        "encounters": {
-            "grass": [
-                {
-                    "species": "Pidgey",
-                    "minLv": 2,
-                    "maxLv": 6,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Rattata",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Nidoran-male",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Mankey",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Oddish",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Bidoof",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Starly",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Shinx",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                },
-                {
-                    "species": "Budew",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.35
-                }
-            ],
-            "water": [
-                {
-                    "species": "Poliwag",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Lotad",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Buizel",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Chinchou",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Marill",
-                    "minLv": 2,
-                    "maxLv": 5,
-                    "chance": 0.5
-                }
-            ]
+  "bedroom": {
+    "id": "bedroom",
+    "name": "ห้องนอน",
+    "url": "https://i.pinimg.com/564x/72/1e/24/721e24ded6bc0fdc35a116474ca1a17e.jpg",
+    "action": [
+      {
+        "value": "นอน",
+        "pos": 1,
+        "color": "white"
+      },
+      {
+        "value": "บันทึกข้อมูล",
+        "pos": 1,
+        "color": "#4ade80"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ]
+  },
+  "classroom": {
+    "id": "classroom",
+    "name": "ห้องเรียน",
+    "url": "https://i.pinimg.com/736x/16/6b/e3/166be35559d55fd1423ed6a5e55f5ae6.jpg",
+    "action": [
+      {
+        "value": "เข้าร่วมคลาสเรียน",
+        "pos": 1,
+        "color": "white"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ]
+  },
+  "infirmaryroom": {
+    "id": "infirmaryroom",
+    "name": "ห้องพยาบาล",
+    "url": "https://i.pinimg.com/736x/cc/6d/62/cc6d62ec96cd8a2651452cbdaf378b62.jpg",
+    "action": [
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ]
+  },
+  "pokeshop": {
+    "id": "pokeshop",
+    "name": "ร้านค้า",
+    "url": "https://cdnb.artstation.com/p/assets/images/images/051/044/155/large/jannis-feldmann-storeinside03.jpg?1656334459",
+    "action": [
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ]
+  },
+  "roof": {
+    "id": "roof",
+    "name": "ดาดฟ้า",
+    "url": "https://i.ytimg.com/vi/kAezItE1stY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDWMnkAbkIi1hzof-b-IXwwNSBx8w",
+    "action": [
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ]
+  },
+  "park": {
+    "id": "park",
+    "name": "สวนสาธารณะ",
+    "url": "https://t3.ftcdn.net/jpg/12/32/24/60/360_F_1232246072_wJcIvcJSIypiHjiJ7bv88H98XXnG6Ohn.jpg",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ตกปลา",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Pidgey",
+          "minLv": 2,
+          "maxLv": 6,
+          "chance": 0.35
+        },
+        {
+          "species": "Rattata",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
+        },
+        {
+          "species": "Mankey",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
+        },
+        {
+          "species": "Oddish",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
+        },
+        {
+          "species": "Bidoof",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
+        },
+        {
+          "species": "Starly",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
+        },
+        {
+          "species": "Shinx",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
+        },
+        {
+          "species": "Ralts",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.35
         }
-    },
-    "viridian-forest": {
-        "id": "viridian-forest",
-        "name": "ป่ามรกต",
-        "url": "https://img.itch.zone/aW1hZ2UvMzA2MjE1Ny8xODMxMzg3OS5qcGc=/original/dilKmL.jpg",
-        "action": [
-            {
-                "value": "สำรวจ",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ],
-        "encounters": {
-            "grass": [
-                {
-                    "species": "caterpie",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Weedle",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Ekans",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Spinarak",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Shroomish",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Slakoth",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                }
-            ],
-            "water": []
+      ],
+      "water": [
+        {
+          "species": "Poliwag",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.5
+        },
+        {
+          "species": "Lotad",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.5
+        },
+        {
+          "species": "Buizel",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.5
+        },
+        {
+          "species": "Chinchou",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.5
+        },
+        {
+          "species": "Marill",
+          "minLv": 2,
+          "maxLv": 5,
+          "chance": 0.5
         }
-    },
-    "beach": {
-        "id": "beach",
-        "name": "ชายหาด",
-        "url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2026/01/copainter_-beach_01.png",
-        "action": [
-            {
-                "value": "สำรวจ",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ตกปลา",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ],
-        "encounters": {
-            "grass": [
-                {
-                    "species": "Wingull",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Krabby",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Sandygast",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Squirtle",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.01
-                }
-            ],
-            "water": []
-        }
-    },
-    "flower": {
-        "id": "flower",
-        "name": "ทุ่งดอกไม้",
-        "url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2026/01/copainter_flower-garden_01.png",
-        "action": [
-            {
-                "value": "สำรวจ",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ตกปลา",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ],
-        "encounters": {
-            "grass": [
-                {
-                    "species": "Wingull",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Krabby",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Wattrel",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Sandygast",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Shroomish",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Slakoth",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                }
-            ],
-            "water": []
-        }
-    },
-    "cave": {
-        "id": "cave",
-        "name": "ถ้ำ",
-        "url": "https://clan.fastly.steamstatic.com/images/43220061/0377ed4a4ceab5d13f95c1d91bd41071b565e46c.jpg",
-        "action": [
-            {
-                "value": "สำรวจ",
-                "pos": 1,
-                "color": "yellow"
-            },
-            {
-                "value": "ออกจากที่นี่",
-                "pos": 0,
-                "color": "red"
-            }
-        ],
-        "encounters": {
-            "grass": [
-                {
-                    "species": "Diglett",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Zubat",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Onix",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Aron",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Shroomish",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                },
-                {
-                    "species": "Slakoth",
-                    "minLv": 4,
-                    "maxLv": 7,
-                    "chance": 0.5
-                }
-            ],
-            "water": []
-        }
+      ]
     }
+  },
+  "viridian-forest": {
+    "id": "viridian-forest",
+    "name": "ป่ามรกต",
+    "url": "https://img.itch.zone/aW1hZ2UvMzA2MjE1Ny8xODMxMzg3OS5qcGc=/original/dilKmL.jpg",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "caterpie",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Weedle",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Ekans",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Spinarak",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Shroomish",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Slakoth",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        }
+      ],
+      "water": []
+    }
+  },
+  "beach": {
+    "id": "beach",
+    "name": "ชายหาด",
+    "url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2026/01/copainter_-beach_01.png",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ตกปลา",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Wingull",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Krabby",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Squirtle",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        }
+      ],
+      "water": [
+        {
+          "species": "Tentacool",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Staryu",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Magikarp",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.07
+        },
+        {
+          "species": "Carvanha",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Lapras",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        }
+      ]
+    }
+  },
+  "flower": {
+    "id": "flower",
+    "name": "ทุ่งดอกไม้",
+    "url": "https://storage.ghost.io/c/42/fc/42fcd807-7c75-44a7-8b26-8deade0bf4c9/content/images/2026/01/copainter_flower-garden_01.png",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ตกปลา",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Hoppip",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Sunkern",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Yanma",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Sandygast",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Shroomish",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Slakoth",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        }
+      ],
+      "water": []
+    }
+  },
+  "cave": {
+    "id": "cave",
+    "name": "ถ้ำ",
+    "url": "https://clan.fastly.steamstatic.com/images/43220061/0377ed4a4ceab5d13f95c1d91bd41071b565e46c.jpg",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Diglett",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Zubat",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Onix",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Aron",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Shroomish",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Slakoth",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        }
+      ],
+      "water": []
+    }
+  },
+  "sawanna": {
+    "id": "sawanna",
+    "name": "ทุ่งสะวาน่า",
+    "url": "https://img.magnific.com/premium-photo/stunning-anime-art-majestic-savanna-landscape-with-snow-sun_899449-412111.jpg",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Mareep",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Skorupi",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Sandshrew",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Girafarig",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Phanpy",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Electrike",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Gligar",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        },
+        {
+          "species": "Tauros",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        }
+      ],
+      "water": []
+    }
+  },
+  "dark-forest": {
+    "id": "dark-forest",
+    "name": "ป่าราตรีนิรันด์",
+    "url": "https://www.zastavki.com/pictures/originals/2015/Games_Dark_forest_in_the_game_Endless_Summer_100934_.jpg",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Stunky",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Murkrow",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Misdreavus",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Poochyena",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Gastly",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Seedot",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Shuppet",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        },
+        {
+          "species": "Absol",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        }
+      ],
+      "water": []
+    }
+  },
+  "snow-land": {
+    "id": "snow-land",
+    "name": "ทุ่งหิมะ",
+    "url": "https://i.pinimg.com/736x/6e/84/0f/6e840fccd98994dc19264be67de702e5.jpg",
+    "action": [
+      {
+        "value": "สำรวจ",
+        "pos": 1,
+        "color": "yellow"
+      },
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "species": "Snover",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Sneasel",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Snorunt",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Slowpoke",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Seel",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.5
+        },
+        {
+          "species": "Shellder",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        },
+        {
+          "species": "Absol",
+          "minLv": 4,
+          "maxLv": 7,
+          "chance": 0.01
+        }
+      ],
+      "water": []
+    }
+  },
+  "library": {
+    "id": "library",
+    "name": "ห้องสมุด",
+    "url": "https://i.pinimg.com/736x/36/74/22/367422b10fd56974dba3424e52dfce0a.jpg",
+    "action": [
+      {
+        "value": "ออกจากที่นี่",
+        "pos": 0,
+        "color": "red"
+      }
+    ]
+  }
 }
